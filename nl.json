@@ -1,0 +1,61 @@
+{
+    "userFriendlyLocaleName":"Nederlands", 
+    "possible8ball":["Ja", "Nee", "Weet ik niet", "Mijn bronnen zeggen dat het waar is", "Sorry, maar daar antwoord ik liever niet op", "Waarschijnlijk wel", "Waarschijnlijk niet", "Probeer het later opnieuw"],
+    "welcoming":{ 
+        "welcomeMessageDef":"We hebben een nieuw lid! Welkom ##mention_user## bij **##guild_name##**!",
+        "leaveMessageDef":"Jammergenoeg heeft **##user_name##** **##guild_name##** verlaten :sob:" 
+    },
+    "servinfo":{ 
+        "EmbedTitle":"Server Informatie",
+        "GuildNameCatTitle":"Server Naam",
+        "GuildIdCatTitle":"Server ID",
+        "GuildOwnerCatTitle":"Server Eigenaar",
+        "GuildCreatedCatTitle":"Server Gemaakt",
+        "MemberCountCatTitle":"Hoeveelheid Leden",
+        "PublicPageCatTitle":"Publieke Pagina",
+        "PublicPageClickHereBtn":"Klik Hier",
+        "ChannelsCountCatTitle":"Hoeveelheid Kanalen", 
+        "VoiceChannelLabelInline":"Stem", 
+        "TextChannelLabelInline":"Tekst",
+        "VerificationLevelCatTitle":"Verificatie Level",
+        "VoiceRegionCatTitle":"Server Regio"
+    },
+    "chaninfo":{ 
+        "EmbedTitle":"Kanaal Informatie",
+        "ChannelNameCatTitle":"Kanaal Naam",
+        "ChannelTopicCatTitle":"Kanaal Topic",
+        "ChannelIdCatTitle":"Kanaal ID"
+    },
+    "help":{
+        "DMSentAlert":":incoming_envelope: De informatie is naar jou verstuurd.",
+        "EmbedTitle":"OxyBot Help",
+        "EmbedDesc":"You can see a list of OxyBot commands here. You can have more detailed information at https://oxybot.freeappsw.space/help",
+        "cmdCats":{
+            "InformationalCommands":"Informational Commands",
+            "FunCommands":"Fun Commands",
+            "CustomActions":"Custom Actions",
+            "ModerationCommands":"Moderation Commands"
+        },
+        "cmds":{
+            "help":"Show this list",
+            "server":"Show current guild information",
+            "channel":"Show current channel information",
+            "userinfo":"Show user's details",
+            "wiki":"Search wiki for a query",
+            "image":"Search for image online",
+            "stats":"Show OxyBot's status",
+            "about":"Show information about the bot",
+            "number":"Generate a random number between `a` and `b`, if not specified, 1 and 1000.",
+            "eightBall":"Ask the Magic Eight-Ball a question",
+            "say":"Sends `content` to chat. Note that message won't be anonymous",
+            "action":"Run action",
+            "actions":"List all actions from this guild",
+            "clearchat":"Removes `x` messages from chat. Messages older than 14 days can't be removed"
+        },
+        "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
+    },
+    "image":{
+        "ErrorNoResult":"No results found for",
+        "ImageResultsFor":"Image search result for"
+    }
+}
