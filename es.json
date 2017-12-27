@@ -1,61 +1,70 @@
 {
-    "userFriendlyLocaleName":"Español", 
-    "possible8ball":["Sí", "No", "No lo sé", "Mis sistemas dicen que sí", "Lo siento pero, prefiero no reponder a eso", "Seguramente", "Most probably no", "Prueba otra vez después"],
-    "welcoming":{
-        "welcomeMessageDef":"Tenemos a un nuevo miembro! Bienvenido ##mention_user## to **##guild_name##**!",
-        "leaveMessageDef":"Desafortunadamente, **##user_name##** se ha ido **##guild_name##** :sob:" 
+    "userFriendlyLocaleName": "Español",
+    "possible8ball": [
+        "Sí",
+        "No",
+        "No lo sé",
+        "Mis sistemas dicen que sí",
+        "Lo siento pero, prefiero no reponder a eso",
+        "Seguramente",
+        "Most probably no",
+        "Prueba otra vez después"
+    ],
+    "welcoming": {
+        "welcomeMessageDef": "Tenemos a un nuevo miembro! Bienvenido ##mention_user## to **##guild_name##**!",
+        "leaveMessageDef": "Desafortunadamente, **##user_name##** se ha ido **##guild_name##** :sob:"
     },
-    "servinfo":{ 
-        "EmbedTitle":"Información del servidor",
-        "GuildNameCatTitle":"Nombre del servidor",
-        "GuildIdCatTitle":"ID del servidor",
-        "GuildOwnerCatTitle":"Dueño del servidor",
-        "GuildCreatedCatTitle":"Creación del servidor",
-        "MemberCountCatTitle":"Numero de miembros",
-        "PublicPageCatTitle":"Página web",
-        "PublicPageClickHereBtn":"Clic Aquí",
-        "ChannelsCountCatTitle":"Numero de canales", 
-        "VoiceChannelLabelInline":"Voz", 
-        "TextChannelLabelInline":"Texto",
-        "VerificationLevelCatTitle":"Nivel deverificación",
-        "VoiceRegionCatTitle":"Región de voz"
+    "servinfo": {
+        "EmbedTitle": "Información del servidor",
+        "GuildNameCatTitle": "Nombre del servidor",
+        "GuildIdCatTitle": "ID del servidor",
+        "GuildOwnerCatTitle": "Dueño del servidor",
+        "GuildCreatedCatTitle": "Creación del servidor",
+        "MemberCountCatTitle": "Numero de miembros",
+        "PublicPageCatTitle": "Página web",
+        "PublicPageClickHereBtn": "Clic Aquí",
+        "ChannelsCountCatTitle": "Numero de canales",
+        "VoiceChannelLabelInline": "Voz",
+        "TextChannelLabelInline": "Texto",
+        "VerificationLevelCatTitle": "Nivel de verificación",
+        "VoiceRegionCatTitle": "Región de voz"
     },
-    "chaninfo":{ 
-        "EmbedTitle":"Información del canal",
-        "ChannelNameCatTitle":"Nombre del canal",
-        "ChannelTopicCatTitle":"Tema del canal",
-        "ChannelIdCatTitle":"ID del canal"
+    "chaninfo": {
+        "EmbedTitle": "Información del canal",
+        "ChannelNameCatTitle": "Nombre del canal",
+        "ChannelTopicCatTitle": "Tema del canal",
+        "ChannelIdCatTitle": "ID del canal"
     },
-    "help":{
-        "DMSentAlert":":incoming_envelope: La información se te ha enviado vía DMs",
-        "EmbedTitle":"OxyBot Comandos",
-        "EmbedDesc":"Puedes ver una lista de los comandos de OxyBot",
-        "cmdCats":{
-            "InformationalCommands":"Comandos Informativos",
-            "FunCommands":"Comandos de diversión",
-            "CustomActions":"Acciones Customizadas",
-            "ModerationCommands":"Comandos demoderación"
+    "help": {
+        "DMSentAlert": ":incoming_envelope: La información se te ha enviado vía DMs",
+        "EmbedTitle": "OxyBot Comandos",
+        "EmbedDesc": "Puedes ver una lista de los comandos de OxyBot",
+        "cmdCats": {
+            "InformationalCommands": "Comandos Informativos",
+            "FunCommands": "Comandos de diversión",
+            "CustomActions": "Acciones Customizadas",
+            "ModerationCommands": "Comandos demoderación"
         },
-        "cmds":{
-            "help":"Enseña esta lista",
-            "server":"Enseña la información del servidor",
-            "channel":"Enseña la información del canal",
-            "userinfo":"Enseña la información del usuario",
-            "wiki":"Busca información en la wiki",
-            "image":"Busca una imagen online",
-            "stats":"Enseña el estado the OxyBot",
-            "about":"Enseña el información sobre el bot",
-            "number":"Genera un numero aleatorio entre `a` y `b`, si no se especifica, 1 al 1000.",
-            "eightBall":"Pregunta a la Magica bola del 8 una pregunta",
-            "say":"Envía tu mensaje al chat. Ten en cuenta que no va a ser anonimo",
-            "action":"Activa una acción",
-            "actions":"Hace una lista de todaslas acciónes de este servidor",
-            "clearchat":"Borra `x` mensajes del chat. Ten en cuenta que no pueden ser mayores de 14 días"
+        "cmds": {
+            "help": "Enseña esta lista",
+            "server": "Enseña la información del servidor",
+            "channel": "Enseña la información del canal",
+            "userinfo": "Enseña la información del usuario",
+            "wiki": "Busca información en la wiki",
+            "image": "Busca una imagen online",
+            "stats": "Enseña el estado the OxyBot",
+            "about": "Enseña el información sobre el bot",
+            "number": "Genera un numero aleatorio entre `a` y `b`, si no se especifica, 1 al 1000.",
+            "eightBall": "Pregunta a la Magica bola del 8 una pregunta",
+            "say": "Envía tu mensaje al chat. Ten en cuenta que no va a ser anonimo",
+            "action": "Activa una acción",
+            "actions": "Hace una lista de todaslas acciónes de este servidor",
+            "clearchat": "Borra `x` mensajes del chat. Ten en cuenta que no pueden ser mayores de 14 días"
         },
-        "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-No disponible en esta versión"
+        "EmbedFooter": "<arg> - mandatory argument, [arg] - optional argument;\n*-No disponible en esta versión"
     },
-    "image":{
-        "ErrorNoResult":"Sin Resultados",
-        "ImageResultsFor":"Resultado de la imagen"
+    "image": {
+        "ErrorNoResult": "Sin Resultados",
+        "ImageResultsFor": "Resultado de la imagen"
     }
 }
