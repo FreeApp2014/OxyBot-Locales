@@ -1,0 +1,61 @@
+{
+    "userFriendlyLocaleName":"Italiano", 
+    "possible8ball":["Si", "No", "Non lo so", "Le mie fonti mi dicono che é vero", "Mi spiace, ma preferisco non rispondere", "Molto probabilmente si", "Molto probabilmente no", "Riprova più tardi"],
+    "welcoming":{ 
+        "welcomeMessageDef":"Abbiamo un nuovo membro! Benvenuto ##mention_user## in **##guild_name##**!",
+        "leaveMessageDef":"Sfortunatamente, **##user_name##** ha abbandonato **##guild_name##** :sob:" 
+    },
+    "servinfo":{ 
+        "EmbedTitle":"Informazioni sul server",
+        "GuildNameCatTitle":"Nome server",
+        "GuildIdCatTitle":"ID server",
+        "GuildOwnerCatTitle":"Proprietario del server",
+        "GuildCreatedCatTitle":"Server creato",
+        "MemberCountCatTitle":"Membri",
+        "PublicPageCatTitle":"Pagina pubblica",
+        "PublicPageClickHereBtn":"Clicca qui",
+        "ChannelsCountCatTitle":"Canali", 
+        "VoiceChannelLabelInline":"Vocali", 
+        "TextChannelLabelInline":"Testuali",
+        "VerificationLevelCatTitle":"Livello di verifica",
+        "VoiceRegionCatTitle":"Area geografica canali vocali"
+    },
+    "chaninfo":{ 
+        "EmbedTitle":"Informazioni sul canale",
+        "ChannelNameCatTitle":"Nome canale",
+        "ChannelTopicCatTitle":"Descrizione canale",
+        "ChannelIdCatTitle":"ID canale"
+    },
+    "help":{
+        "DMSentAlert":":incoming_envelope: Le informazioni ti sono state inviate nei tuoi messaggi privati.",
+        "EmbedTitle":"Guida di OxyBot",
+        "EmbedDesc":"Qui puoi vedere una lista di comandi di OxyBot. Puoi avere maggiori informazioni a questo link: https://oxybot.freeappsw.space/help",
+        "cmdCats":{
+            "InformationalCommands":"Comandi di informazione",
+            "FunCommands":"Comandi per divertirsi",
+            "CustomActions":"Azioni personalizzate",
+            "ModerationCommands":"Comandi di moderazione"
+        },
+        "cmds":{
+            "help":"Mostra questa lista",
+            "server":"Mostra delle informazioni sul server",
+            "channel":"Mostra delle informazioni sul canale",
+            "userinfo":"Mostra delle informazioni su un membro",
+            "wiki":"Cerca qualcosa su Wikipedia",
+            "image":"Cerca immagini online",
+            "stats":"Mostra lo stato di OxyBot",
+            "about":"Mostra delle informazioni su OxyBot",
+            "number":"Genera un numero a caso tra `X` e `Y`, oppure se non specificati, tra 1 e 1000.",
+            "eightBall":"Chiedi qualcosa alla palla da biliardo magica numero 8.",
+            "say":"Invia `content` in chat. Il messaggio NON sarà anonimo.",
+            "action":"Esegui un'azione",
+            "actions":"Mostra una lista di azioni",
+            "clearchat":"Rimuove `x` messaggi dalla chat. I messaggi più vecchi di 14 giorni non potranno essere cancellati."
+        },
+        "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-ancora non disponibile in questa build"
+    },
+    "image":{
+        "ErrorNoResult":"Nessun risultato per",
+        "ImageResultsFor":"Trovata un'immagine per"
+    }
+}
