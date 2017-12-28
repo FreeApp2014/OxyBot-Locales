@@ -1,61 +1,70 @@
 {
-    "userFriendlyLocaleName":"Polski",
-    "possible8ball":["Tak", "Nie", "Nie wiem", "Z moich źródeł wynika, że to prawda", "Przepraszam, ale wolę nie odpowiadać", "Prawdopodobnie tak", "Prawdopodobnie nie", "Spróbuj kiedy indziej"],
-    "welcoming":{
-        "welcomeMessageDef":"Mamy nowego członka! Witamy ##mention_user## w **##guild_name##**!",
-        "leaveMessageDef":"Niestety, serwer **##guild_name##** został opuszczony przez **##user_name##** :sob:" 
+    "userFriendlyLocaleName": "Polski",
+    "possible8ball": [
+        "Tak",
+        "Nie",
+        "Nie wiem",
+        "Z moich źródeł wynika, że to prawda",
+        "Przepraszam, ale wolę nie odpowiadać",
+        "Prawdopodobnie tak",
+        "Prawdopodobnie nie",
+        "Spróbuj kiedy indziej"
+    ],
+    "welcoming": {
+        "welcomeMessageDef": "Mamy nowego członka! Witamy ##mention_user## w **##guild_name##**!",
+        "leaveMessageDef": "Niestety, serwer **##guild_name##** został opuszczony przez **##user_name##** :sob:"
     },
-   "servinfo":{ 
-        "EmbedTitle":"Informacje o serwerze",
-        "GuildNameCatTitle":"Nazwa serwera",
-        "GuildIdCatTitle":"ID serwera",
-        "GuildOwnerCatTitle":"Właściciel serwera",
-        "GuildCreatedCatTitle":"Serwer utworzono:",
-        "MemberCountCatTitle":"Ilość ludzi na serwerze",
-        "PublicPageCatTitle":"Publiczna strona",
-        "PublicPageClickHereBtn":"Kliknij tutaj",
-        "ChannelsCountCatTitle":"Ilość kanałów", 
-        "VoiceChannelLabelInline":"Głosowych", 
-        "TextChannelLabelInline":"Tekstowych",
-        "VerificationLevelCatTitle":"Poziom weryfikacji",
-        "VoiceRegionCatTitle":"Region serwera głosowego"
+    "servinfo": {
+        "EmbedTitle": "Informacje o serwerze",
+        "GuildNameCatTitle": "Nazwa serwera",
+        "GuildIdCatTitle": "ID serwera",
+        "GuildOwnerCatTitle": "Właściciel serwera",
+        "GuildCreatedCatTitle": "Serwer utworzono:",
+        "MemberCountCatTitle": "Ilość ludzi na serwerze",
+        "PublicPageCatTitle": "Publiczna strona",
+        "PublicPageClickHereBtn": "Kliknij tutaj",
+        "ChannelsCountCatTitle": "Ilość kanałów",
+        "VoiceChannelLabelInline": "Głosowych",
+        "TextChannelLabelInline": "Tekstowych",
+        "VerificationLevelCatTitle": "Poziom weryfikacji",
+        "VoiceRegionCatTitle": "Region serwera głosowego"
     },
-    "chaninfo":{ 
-        "EmbedTitle":"Informacje o kanale",
-        "ChannelNameCatTitle":"Nazwa kanału",
-        "ChannelTopicCatTitle":"Opis kanału",
-        "ChannelIdCatTitle":"ID kanału"
+    "chaninfo": {
+        "EmbedTitle": "Informacje o kanale",
+        "ChannelNameCatTitle": "Nazwa kanału",
+        "ChannelTopicCatTitle": "Opis kanału",
+        "ChannelIdCatTitle": "ID kanału"
     },
-    "help":{
-        "DMSentAlert":":incoming_envelope: Wysłałem ci informacje w wiadomości prywatnej",
-        "EmbedTitle":"Pomoc OxyBota",
-        "EmbedDesc":"Tutaj możesz zobaczyć listę komend OxyBota. Aby uzyskać więcej informacji, zajrzyj na https://oxybot.freeappsw.space/help",
-        "cmdCats":{
-            "InformationalCommands":"Różne informacje",
-            "FunCommands":"Zabawa",
-            "CustomActions":"Niestandardowe akcje",
-            "ModerationCommands":"Moderacja"
+    "help": {
+        "DMSentAlert": ":incoming_envelope: Wysłałem ci informacje w wiadomości prywatnej",
+        "EmbedTitle": "Pomoc OxyBota",
+        "EmbedDesc": "Tutaj możesz zobaczyć listę komend OxyBota. Aby uzyskać więcej informacji, zajrzyj na https://oxybot.freeappsw.space/help",
+        "cmdCats": {
+            "InformationalCommands": "Różne informacje",
+            "FunCommands": "Zabawa",
+            "CustomActions": "Niestandardowe akcje",
+            "ModerationCommands": "Moderacja"
         },
-        "cmds":{
-            "help":"Wyświetl tą listę",
-            "server":"Wyświetl informacje o serwerze",
-            "channel":"Wyświetl informacje o kanale",
-            "userinfo":"Wyświetl informacje o użytkowniku",
-            "wiki":"Przeszukaj Wikipedię",
-            "image":"Przeszukaj grafikę google w poszukiwaniu obrazka",
-            "stats":"Wyświetl status OxyBota",
-            "about":"Wyświetl informacje o bocie",
-            "number":"Wygeneruj losowy numer między `a` i `b`, jeżeli nie podano, 1 i 1000.",
-            "eightBall":"Zapytaj magicznej 8ball pytanie",
-            "say":"Wypisz `tekst` na czat. Pamiętaj, że wiadomość nie jest anonimowa!",
-            "action":"Wykonaj akcję",
-            "actions":"Wyświetl wszystkie akcje w tym serwerze",
-            "clearchat":"Usuwa `x` wiadomości z czatu. Pamiętaj, że OxyBot nie może usuwać wiadomości starszych niż 14 dni!"
+        "cmds": {
+            "help": "Wyświetl tą listę",
+            "server": "Wyświetl informacje o serwerze",
+            "channel": "Wyświetl informacje o kanale",
+            "userinfo": "Wyświetl informacje o użytkowniku",
+            "wiki": "Przeszukaj Wikipedię",
+            "image": "Przeszukaj grafikę google w poszukiwaniu obrazka",
+            "stats": "Wyświetl status OxyBota",
+            "about": "Wyświetl informacje o bocie",
+            "number": "Wygeneruj losowy numer między `a` i `b`, jeżeli nie podano, 1 i 1000.",
+            "eightBall": "Zapytaj magicznej 8ball pytanie",
+            "say": "Wypisz `tekst` na czat. Pamiętaj, że wiadomość nie jest anonimowa!",
+            "action": "Wykonaj akcję",
+            "actions": "Wyświetl wszystkie akcje w tym serwerze",
+            "clearchat": "Usuwa `x` wiadomości z czatu. Pamiętaj, że OxyBot nie może usuwać wiadomości starszych niż 14 dni!"
         },
-        "EmbedFooter":"<arg> - wymagany argument, [arg] - opcjonalny argument;\n*- nie dostępne w tej wersji bota"
+        "EmbedFooter": "<arg> - wymagany argument, [arg] - opcjonalny argument;\n*- nie dostępne w tej wersji bota"
     },
-    "image":{
-        "ErrorNoResult":"Brak wyników dla",
-        "ImageResultsFor":"Obrazek znaleziony dla zapytania"
+    "image": {
+        "ErrorNoResult": "Brak wyników dla",
+        "ImageResultsFor": "Obrazek znaleziony dla zapytania"
     }
 }
