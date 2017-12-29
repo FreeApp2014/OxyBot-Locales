@@ -63,23 +63,17 @@
         },
         "EmbedFooter": "<arg> - wymagany argument, [arg] - opcjonalny argument;\n*- nie dostępne w tej wersji bota"
     },
-<<<<<<< HEAD
     "image": {
         "ErrorNoResult": "Brak wyników dla",
         "ImageResultsFor": "Obrazek znaleziony dla zapytania"
-=======
-    "image":{
-        "ErrorNoResult":"Brak wyników dla",
-        "ImageResultsFor":"Obrazek znaleziony dla zapytania"
     },
-    "actions":{
-        "EmbedTitle":"Akcje na tym serwerze",
-        "EmbedDesc":"Tutaj możesz zobaczyć listę wszystkich akcji na tym serwerze",
-        "ErrorEmbedTitle":"Błąd",
-        "ErrorActionsNotFoundEmbedDesc":"Ten serwer nie zawiera żadnych akcji",
-        "SuccessDoneEmbedTitle":"Ukończono",
-        "SuccessDoneMinusRole":"Dodałem ci rangę `##role_name##`",
-        "SuccessDonePlusRole":"Odebrałem ci rangę `##role_name##`"
->>>>>>> 01787c6e67fdf269fdfb299c7fdedb924eec2aa7
+    "actions": {
+        "EmbedTitle": "Akcje na tym serwerze",
+        "EmbedDesc": "Tutaj możesz zobaczyć listę wszystkich akcji na tym serwerze",
+        "ErrorEmbedTitle": "Błąd",
+        "ErrorActionsNotFoundEmbedDesc": "Ten serwer nie zawiera żadnych akcji",
+        "SuccessDoneEmbedTitle": "Ukończono",
+        "SuccessDoneMinusRole": "Dodałem ci rangę `##role_name##`",
+        "SuccessDonePlusRole": "Odebrałem ci rangę `##role_name##`"
     }
 }

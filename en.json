@@ -63,23 +63,17 @@
         },
         "EmbedFooter": "<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
     },
-<<<<<<< HEAD
     "image": {
-        "ErrorNoResult": "No results found",
-        "ImageResultsFor": "Image search results for"
-=======
-    "image":{
-        "ErrorNoResult":"No results found for",
-        "ImageResultsFor":"Image search result for"
+        "ErrorNoResult": "No results found for",
+        "ImageResultsFor": "Image search result for"
     },
-    "actions":{
-        "EmbedTitle":"Guild Actions",
-        "EmbedDesc":"Here you can see a list of all custom actions available in this guild",
-        "ErrorEmbedTitle":"Error",
-        "ErrorActionsNotFoundEmbedDesc":"This guild does not have any actions",
-        "SuccessDoneEmbedTitle":"Done",
-        "SuccessDoneMinusRole":"The role `##role_name##` has been removed from user.",
-        "SuccessDonePlusRole":"The role `##role_name##` has been added to user."
->>>>>>> 01787c6e67fdf269fdfb299c7fdedb924eec2aa7
+    "actions": {
+        "EmbedTitle": "Guild Actions",
+        "EmbedDesc": "Here you can see a list of all custom actions available in this guild",
+        "ErrorEmbedTitle": "Error",
+        "ErrorActionsNotFoundEmbedDesc": "This guild does not have any actions",
+        "SuccessDoneEmbedTitle": "Done",
+        "SuccessDoneMinusRole": "The role `##role_name##` has been removed from user.",
+        "SuccessDonePlusRole": "The role `##role_name##` has been added to user."
     }
 }
