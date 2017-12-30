@@ -1,5 +1,5 @@
 {
-	"userFriendlyLocaleName": "Portugês",
+	"userFriendlyLocaleName": "Português",
 	"possible8ball": ["Sim", "Não", "Eu não sei", "As minhas fontes dizem-me que é verdade", "Peço desculpa, mas prefiro não responder", "Muito provavelmente sim", "Muito provavelmente não", "Tente outra vez mais tarde"],
 	"welcoming": {
 		"welcomeMessageDef": "Temos um novo membro! Bem vindo ##mention_user##, ao servidor **##guild_name##**!",
