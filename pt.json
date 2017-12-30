@@ -1,0 +1,70 @@
+{
+	"userFriendlyLocaleName": "Portugês",
+	"possible8ball": ["Sim", "Não", "Eu não sei", "As minhas fontes dizem-me que é verdade", "Peço desculpa, mas prefiro não responder", "Muito provavelmente sim", "Muito provavelmente não", "Tente outra vez mais tarde"],
+	"welcoming": {
+		"welcomeMessageDef": "Temos um novo membro! Bem vindo ##mention_user##, ao servidor **##guild_name##**!",
+		"leaveMessageDef": "Infelizmente, o usuário **##user_name##** deixou **##guild_name##** :sob:"
+	},
+	"servinfo": {
+		"EmbedTitle": "Informação do Servidor",
+		"GuildNameCatTitle": "Nome do Servidor",
+		"GuildIdCatTitle": "ID do Servidor",
+		"GuildOwnerCatTitle": "Dono do Servidor",
+		"GuildCreatedCatTitle": "Criação do Servidor",
+		"MemberCountCatTitle": "Contagem de Membros",
+		"PublicPageCatTitle": "Página Pública",
+		"PublicPageClickHereBtn": "Clica aqui",
+		"ChannelsCountCatTitle": "Contagem de Canais",
+		"VoiceChannelLabelInline": "Voz",
+		"TextChannelLabelInline": "Texto",
+		"VerificationLevelCatTitle": "Nível de Verificação",
+		"VoiceRegionCatTitle": "Região de Voz"
+	},
+	"chaninfo": {
+		"EmbedTitle": "Informação do Canal",
+		"ChannelNameCatTitle": "Nome do Canal",
+		"ChannelTopicCatTitle": "Tópico do Canal",
+		"ChannelIdCatTitle": "ID do Canal"
+	},
+	"help": {
+		"DMSentAlert": ":incoming_envelope: A informação foi enviada para as tuas DMs.",
+		"EmbedTitle": "Ajuda do OxyBot",
+		"EmbedDesc": "Podes ver uma lista de comandos do OxyBot aqui. Para informação mais detalhada visita a página https://oxybot.freeappsw.space/help",
+		"cmdCats": {
+			"InformationalCommands": "Comandos de Informação",
+			"FunCommands": "Comandos Divertidos",
+			"CustomActions": "Ações personalizadas",
+			"ModerationCommands": "Comandos de Moderação"
+		},
+		"cmds": {
+			"help": "Mosta esta lista.",
+			"server": "Mostra informação sobre o servidor atual",
+			"channel": "Mostra informação sobre o canal atual",
+			"userinfo": "Mostra informação sobre o usuário",
+			"wiki": "Faz uma pesquisa na wiki",
+			"image": "Procura uma imagem",
+			"stats": "Mostra o status do OxyBot",
+			"about": "Mostra informação sobre o OxyBot",
+			"number": "Gera um número aleatório entre `a` e `b` - caso não especificado, entre 1 e 1000.",
+			"eightBall": "Faz uma pergunta à Magic Eight-Ball",
+			"say": "Envia `content` no chat. Nota: a mensagem não será anónima",
+			"action": "Faz uma ação",
+			"actions": "Mostra uma lista de todas as ações deste servidor",
+			"clearchat": "Remove `x` mensagens do chat. Mensagens mais velhas do que 14 dias não podem ser removidas"
+		},
+		"EmbedFooter": "<arg> - argumento obrigatório, [arg] - argumento opcional;\n*-ainda não disponível nesta versão"
+	},
+	"image": {
+		"ErrorNoResult": "Nenhum resultado foi encontrado para",
+		"ImageResultsFor": "Resultados de imagem para"
+	},
+	"actions": {
+		"EmbedTitle": "Ações do Servidor",
+		"EmbedDesc": "Aqui podes ver uma lista de todas as ações personalizadas deste servidor",
+		"ErrorEmbedTitle": "Erro",
+		"ErrorActionsNotFoundEmbedDesc": "Este servidor não tem ações",
+		"SuccessDoneEmbedTitle": "Pronto",
+		"SuccessDoneMinusRole": "O cargo `##role_name##` foi removido do usuário.",
+		"SuccessDonePlusRole": "O cargo`##role_name##` foi adicionado ao usuário."
+	}
+}
