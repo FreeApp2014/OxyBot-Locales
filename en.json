@@ -1,70 +1,79 @@
 {
-    "userFriendlyLocaleName":"English", 
-    "possible8ball":["Yes", "No", "I don't know", "My sources tell it's true", "I am sorry, but I would rather not answer", "Most probably yes", "Most probably no", "Try again later"],
-    "welcoming":{ 
-        "welcomeMessageDef":"We've got a new member here! Welcome ##mention_user## to **##guild_name##**!",
-        "leaveMessageDef":"Unfortunately, **##user_name##** has left **##guild_name##** :sob:" 
+    "userFriendlyLocaleName": "English",
+    "possible8ball": [
+        "Yes",
+        "No",
+        "I don't know",
+        "My sources tell it's true",
+        "I am sorry, but I would rather not answer",
+        "Most probably yes",
+        "Most probably no",
+        "Try again later"
+    ],
+    "welcoming": {
+        "welcomeMessageDef": "We've got a new member here! Welcome ##mention_user## to **##guild_name##**!",
+        "leaveMessageDef": "Unfortunately, **##user_name##** has left **##guild_name##** :sob:"
     },
-    "servinfo":{ 
-        "EmbedTitle":"Server Information",
-        "GuildNameCatTitle":"Guild Name",
-        "GuildIdCatTitle":"Guild ID",
-        "GuildOwnerCatTitle":"Guild Owner",
-        "GuildCreatedCatTitle":"Guild Created",
-        "MemberCountCatTitle":"Member Count",
-        "PublicPageCatTitle":"Public Page",
-        "PublicPageClickHereBtn":"Click Here",
-        "ChannelsCountCatTitle":"Channels Count", 
-        "VoiceChannelLabelInline":"Voice", 
-        "TextChannelLabelInline":"Text",
-        "VerificationLevelCatTitle":"Verification Level",
-        "VoiceRegionCatTitle":"Voice Region"
+    "servinfo": {
+        "EmbedTitle": "Server Information",
+        "GuildNameCatTitle": "Guild Name",
+        "GuildIdCatTitle": "Guild ID",
+        "GuildOwnerCatTitle": "Guild Owner",
+        "GuildCreatedCatTitle": "Guild Created",
+        "MemberCountCatTitle": "Member Count",
+        "PublicPageCatTitle": "Public Page",
+        "PublicPageClickHereBtn": "Click Here",
+        "ChannelsCountCatTitle": "Channels Count",
+        "VoiceChannelLabelInline": "Voice",
+        "TextChannelLabelInline": "Text",
+        "VerificationLevelCatTitle": "Verification Level",
+        "VoiceRegionCatTitle": "Voice Region"
     },
-    "chaninfo":{ 
-        "EmbedTitle":"Channel Information",
-        "ChannelNameCatTitle":"Channel Name",
-        "ChannelTopicCatTitle":"Channel Topic",
-        "ChannelIdCatTitle":"Channel ID"
+    "chaninfo": {
+        "EmbedTitle": "Channel Information",
+        "ChannelNameCatTitle": "Channel Name",
+        "ChannelTopicCatTitle": "Channel Topic",
+        "ChannelIdCatTitle": "Channel ID"
     },
-    "help":{
-        "DMSentAlert":":incoming_envelope: The information has been sent to your DMs.",
-        "EmbedTitle":"OxyBot Help",
-        "EmbedDesc":"You can see a list of OxyBot commands here. You can have more detailed information at https://oxybot.freeappsw.space/help",
-        "cmdCats":{
-            "InformationalCommands":"Informational Commands",
-            "FunCommands":"Fun Commands",
-            "CustomActions":"Custom Actions",
-            "ModerationCommands":"Moderation Commands"
+    "help": {
+        "DMSentAlert": ":incoming_envelope: The information has been sent to your DMs.",
+        "EmbedTitle": "OxyBot Help",
+        "EmbedDesc": "You can see a list of OxyBot commands here. You can have more detailed information at https://oxybot.freeappsw.space/help",
+        "cmdCats": {
+            "InformationalCommands": "Informational Commands",
+            "FunCommands": "Fun Commands",
+            "CustomActions": "Custom Actions",
+            "ModerationCommands": "Moderation Commands"
         },
-        "cmds":{
-            "help":"Show this list",
-            "server":"Show current guild information",
-            "channel":"Show current channel information",
-            "userinfo":"Show user's details",
-            "wiki":"Search wiki for a query",
-            "image":"Search for image online",
-            "stats":"Show OxyBot's status",
-            "about":"Show information about the bot",
-            "number":"Generate a random number between `a` and `b`, if not specified, 1 and 1000.",
-            "eightBall":"Ask the Magic Eight-Ball a question",
-            "say":"Sends `content` to chat. Note that message won't be anonymous",
-            "action":"Run action",
-            "actions":"List all actions from this guild",
-            "clearchat":"Removes `x` messages from chat. Messages older than 14 days can't be removed"
+        "cmds": {
+            "help": "Show this list",
+            "server": "Show current guild information",
+            "channel": "Show current channel information",
+            "userinfo": "Show user's details",
+            "wiki": "Search wiki for a query",
+            "image": "Search for image online",
+            "stats": "Show OxyBot's status",
+            "about": "Show information about the bot",
+            "number": "Generate a random number between `a` and `b`, if not specified, 1 and 1000.",
+            "eightBall": "Ask the Magic Eight-Ball a question",
+            "say": "Sends `content` to chat. Note that message won't be anonymous",
+            "action": "Run action",
+            "actions": "List all actions from this guild",
+            "clearchat": "Removes `x` messages from chat. Messages older than 14 days can't be removed"
         },
-        "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
+        "EmbedFooter": "<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
     },
-    "image":{
-        "ErrorNoResult":"No results found for",
-        "ImageResultsFor":"Image search result for"
+    "image": {
+        "ErrorNoResult": "No results found for",
+        "ImageResultsFor": "Image search result for"
     },
-    "actions":{
-        "EmbedTitle":"Guild Actions",
-        "EmbedDesc":"Here you can see a list of all custom actions available in this guild",
-        "ErrorEmbedTitle":"Error",
-        "ErrorActionsNotFoundEmbedDesc":"This guild does not have any actions",
-        "SuccessDoneEmbedTitle":"Done",
-        "SuccessDoneMinusRole":"The role `##role_name##` has been removed from user.",
-        "SuccessDonePlusRole":"The role `##role_name##` has been added to user."
+    "actions": {
+        "EmbedTitle": "Guild Actions",
+        "EmbedDesc": "Here you can see a list of all custom actions available in this guild",
+        "ErrorEmbedTitle": "Error",
+        "ErrorActionsNotFoundEmbedDesc": "This guild does not have any actions",
+        "SuccessDoneEmbedTitle": "Done",
+        "SuccessDoneMinusRole": "The role `##role_name##` has been removed from user.",
+        "SuccessDonePlusRole": "The role `##role_name##` has been added to user."
     }
 }
