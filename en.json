@@ -66,5 +66,25 @@
         "SuccessDoneEmbedTitle":"Done",
         "SuccessDoneMinusRole":"The role `##role_name##` has been removed from user.",
         "SuccessDonePlusRole":"The role `##role_name##` has been added to user."
+        "ErrorCantAddRole":"The bot was unable to add the role. Perhaps, it lacks permissions?",
+        "ErrorCantRemoveRole":"The bot was unable to remove the role. Perhaps, it lacks permissions?"
+    },
+    "about":{
+        "EmbedTitle":"About OxyBot",
+        "EmbedDesc":"OxyBot is a multipurpose Discord.js bot made by [FreeAppSW](https://www.freeappsw.space) as a part of [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "VersionCatTitle":"Version",
+        "InviteLinkCatTitle":"Add bot",
+        "WebsiteCatTitle":"Website"
+    },
+    "eightBall":{
+        "EmbedTitle":"8-ball - OxyBot",
+        "EmbedDesc":"Let the magic of the Eight-Ball answer your question!",
+        "YourQuestionCatTitle":"Your question",
+        "AnswerCatTitle":"Answer"
+    },
+    "clearChat":{
+        "SuccessMessage":"Deleted `##ntd##` messages.",
+        "ClientNoPermission":"You don't have **Manage Messages** permission.",
+        "BotCantDeleteError":"There was an error while deleting messages. Perhaps, the bot is missing **Manage Messages** permission?"
     }
 }
