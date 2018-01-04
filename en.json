@@ -65,7 +65,7 @@
         "ErrorActionsNotFoundEmbedDesc":"This guild does not have any actions",
         "SuccessDoneEmbedTitle":"Done",
         "SuccessDoneMinusRole":"The role `##role_name##` has been removed from user.",
-        "SuccessDonePlusRole":"The role `##role_name##` has been added to user."
+        "SuccessDonePlusRole":"The role `##role_name##` has been added to user.",
         "ErrorCantAddRole":"The bot was unable to add the role. Perhaps, it lacks permissions?",
         "ErrorCantRemoveRole":"The bot was unable to remove the role. Perhaps, it lacks permissions?"
     },
