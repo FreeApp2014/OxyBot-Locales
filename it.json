@@ -52,10 +52,39 @@
             "actions":"Mostra una lista di azioni",
             "clearchat":"Rimuove `x` messaggi dalla chat. I messaggi più vecchi di 14 giorni non potranno essere cancellati."
         },
-        "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-ancora non disponibile in questa build"
+        "EmbedFooter":"<arg> - argomento obbligatorio, [arg] - argomento opzionale;\n*-ancora non disponibile in questa build"
     },
     "image":{
         "ErrorNoResult":"Nessun risultato per",
         "ImageResultsFor":"Trovata un'immagine per"
+    },
+    "actions":{
+        "EmbedTitle":"Azioni del server",
+        "EmbedDesc":"Qui puoi vedere una lista di azioni personalizzate del server",
+        "ErrorEmbedTitle":"Errore",
+        "ErrorActionsNotFoundEmbedDesc":"Questo server non ha alcuna azione",
+        "SuccessDoneEmbedTitle":"Fatto",
+        "SuccessDoneMinusRole":"Il ruolo `##role_name##` e' stato rimosso dall'utente.",
+        "SuccessDonePlusRole":"Il ruolo `##role_name##` e' stato aggiunto all'utente.",
+        "ErrorCantAddRole":"Il bot non e' riuscito a creare il ruolo. Forse, non ha i permessi necessari?",
+        "ErrorCantRemoveRole":"Il bot non e' riuscito a rimuovere il ruolo. Forse, non ha i permessi necessari?"
+    },
+    "about":{
+        "EmbedTitle":"Informazioni su OxyBot",
+        "EmbedDesc":"OxyBot e' un bot multiuso creato con Discord.js da [FreeAppSW](https://www.freeappsw.space) come parte delle [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "VersionCatTitle":"Versione",
+        "InviteLinkCatTitle":"Aggiungi OxyBot",
+        "WebsiteCatTitle":"Sito web"
+    },
+    "eightBall":{
+        "EmbedTitle":"8-ball - OxyBot",
+        "EmbedDesc":"Chiedi alla magica palla da biliardo numero 8 tutto quello che vuoi!",
+        "YourQuestionCatTitle":"Domanda",
+        "AnswerCatTitle":"Risposta"
+    },
+    "clearChat":{
+        "SuccessMessage":"`##ntd##` messaggi cancellati.",
+        "ClientNoPermission":"Non hai il permesso **Manage Messages**.",
+        "BotCantDeleteError":"Il bot non e' riuscito a cancellare i messaggi. Forse, non ha il permesso **Manage Messages**?"
     }
 }
