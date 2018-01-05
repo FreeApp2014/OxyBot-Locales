@@ -7,3 +7,4 @@ Translations for OxyBot
 * **Portuguese** - [B4U7](https://github.com/B4U7)
 * **Italian** - [G Softwares](http://gsoftwares.tk/)
 * **German** - [benharri](https://github.com/benharri)
+* **French** - [Soren805](http://pcsecurebit.000webhostapp.com/)
