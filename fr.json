@@ -38,54 +38,54 @@
           '---------------------STOPPED HERE--------------------'
         },
         "cmds":{
-            "help":"Show this list",
-            "server":"Show current guild information",
-            "channel":"Show current channel information",
-            "userinfo":"Show user's details",
-            "wiki":"Search wiki for a query",
-            "image":"Search for image online",
-            "stats":"Show OxyBot's status",
-            "about":"Show information about the bot",
-            "number":"Generate a random number between `a` and `b`, if not specified, 1 and 1000.",
-            "eightBall":"Ask the Magic Eight-Ball a question",
-            "say":"Sends `content` to chat. Note that message won't be anonymous",
-            "action":"Run action",
-            "actions":"List all actions from this guild",
-            "clearchat":"Removes `x` messages from chat. Messages older than 14 days can't be removed"
+            "help":"Afficher cette liste",
+            "server":"Afficher les informations du serveur actuel",
+            "channel":"Afficher les informations du salon actuel",
+            "userinfo":"Afficher les détails de l'utilisateur",
+            "wiki":"Rechercher sur le wiki pour une requête",
+            "image":"Rechercher des images en ligne",
+            "stats":"Afficher la présence d'OxyBot",
+            "about":"Afficher des informations à propos du robot",
+            "number":"Générer un nombre aléatoire entre `a` et `b`, si non spécifié, entre 1 et 1000.",
+            "eightBall":"Demander à Magic Eight-Ball une question",
+            "say":"Envoi `content` dans le chat. A noté que ce message sera visible pour tout le monde",
+            "action":"Executer une action",
+            "actions":"Lister toutes les actions de ce serveur",
+            "clearchat":"Supprime `x` messages du chat. Les messages plus vieux que 14 jours ne peuvent pas être supprimés"
         },
-        "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
+        "EmbedFooter":"<arg> - argument obligatoire, [arg] - argument optionel;\n*-pas encore disponible dans cette version"
     },
     "image":{
-        "ErrorNoResult":"No results found for",
-        "ImageResultsFor":"Image search result for"
+        "ErrorNoResult":"Pas de résultats trouvés pour",
+        "ImageResultsFor":"Résultats de la requête d'images pour"
     },
     "actions":{
-        "EmbedTitle":"Guild Actions",
-        "EmbedDesc":"Here you can see a list of all custom actions available in this guild",
-        "ErrorEmbedTitle":"Error",
-        "ErrorActionsNotFoundEmbedDesc":"This guild does not have any actions",
-        "SuccessDoneEmbedTitle":"Done",
-        "SuccessDoneMinusRole":"The role `##role_name##` has been removed from user.",
-        "SuccessDonePlusRole":"The role `##role_name##` has been added to user.",
-        "ErrorCantAddRole":"The bot was unable to add the role. Perhaps, it lacks permissions?",
-        "ErrorCantRemoveRole":"The bot was unable to remove the role. Perhaps, it lacks permissions?"
+        "EmbedTitle":"Actions du serveur",
+        "EmbedDesc":"Ici vous pouvez voir une liste de toutes les actions personalisés disponibles",
+        "ErrorEmbedTitle":"Erreur",
+        "ErrorActionsNotFoundEmbedDesc":"Ce serveur n'a aucune actions.",
+        "SuccessDoneEmbedTitle":"Terminé",
+        "SuccessDoneMinusRole":"Le rôle `##role_name##` a été supprimé de l'utilisateur.",
+        "SuccessDonePlusRole":"The role `##role_name##` a été ajouté à l'utilisateur.",
+        "ErrorCantAddRole":"Le robot n'est pas capable d'ajouter ce rôle. Peut être, lui manque-t-il de permissions ?",
+        "ErrorCantRemoveRole":"Le robot n'est pas capable de supprimer ce rôle. Peut être, lui manque-t-il de permissions ?"
     },
     "about":{
-        "EmbedTitle":"About OxyBot",
-        "EmbedDesc":"OxyBot is a multipurpose Discord.js bot made by [FreeAppSW](https://www.freeappsw.space) as a part of [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "EmbedTitle":"A propos d'OxyBot",
+        "EmbedDesc":"OxyBot est un robot Discord.Js polyvalent créé par [FreeAppSW](https://www.freeappsw.space) faisant partie de [Oxy-series](https://www.freeappsw.space/oxyseries/).",
         "VersionCatTitle":"Version",
-        "InviteLinkCatTitle":"Add bot",
-        "WebsiteCatTitle":"Website"
+        "InviteLinkCatTitle":"Ajouter le robot",
+        "WebsiteCatTitle":"Site web"
     },
     "eightBall":{
         "EmbedTitle":"8-ball - OxyBot",
-        "EmbedDesc":"Let the magic of the Eight-Ball answer your question!",
-        "YourQuestionCatTitle":"Your question",
-        "AnswerCatTitle":"Answer"
+        "EmbedDesc":"Laisser la magie du Eight-Ball répondre à votre question !",
+        "YourQuestionCatTitle":"Votre question",
+        "AnswerCatTitle":"Réponse"
     },
     "clearChat":{
-        "SuccessMessage":"Deleted `##ntd##` messages.",
-        "ClientNoPermission":"You don't have **Manage Messages** permission.",
-        "BotCantDeleteError":"There was an error while deleting messages. Perhaps, the bot is missing **Manage Messages** permission?"
+        "SuccessMessage":"`##ntd##` messages supprimés.",
+        "ClientNoPermission":"Vous n'avez pas la permission **Manage Messages**.",
+        "BotCantDeleteError":"Il y a eu une erreur pendant la suppression des messages. Peut être, le robot manque la permission **Manage Messages** ?"
     }
 }
