@@ -35,7 +35,6 @@
             "FunCommands":"Commandes amusantes",
             "CustomActions":"Actions personalisées",
             "ModerationCommands":"Commandes de modération"
-          '---------------------STOPPED HERE--------------------'
         },
         "cmds":{
             "help":"Afficher cette liste",
