@@ -86,5 +86,11 @@
         "SuccessMessage":"Deleted `##ntd##` messages.",
         "ClientNoPermission":"You don't have **Manage Messages** permission.",
         "BotCantDeleteError":"There was an error while deleting messages. Perhaps, the bot is missing **Manage Messages** permission?"
+    },
+    "wiki":{
+        "NoQueryMessage":"No search query provided.",
+        "QueryErrorMessage":"An error has occured while requesting the wiki server:",
+        "ReadMoreBtn":"Read More",
+        "ArticleNotFound":"No articles matching your search query were found on this wiki."
     }
 }
