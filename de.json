@@ -54,7 +54,7 @@
             "image": "fotos suchen",
             "stats": "OxyBot Status anzeigen",
             "about": "OxyBot-Info anzeigen",
-            "number": "Zufallszahlgenerator: Zahl zwischen `a` und `b`, 1 and 1000 falls nicht spezifiziert",
+            "number": "Zufallszahlgenerator: Zahl zwischen `a` und `b`. 1-1000 falls nicht spezifiziert",
             "eightBall": "Den magischen 8-Ball fragen",
             "say": "Sendet `content` zum Chat. Nicht anonym.",
             "action": "Custom-Aktion starten",
@@ -66,5 +66,34 @@
     "image": {
         "ErrorNoResult": "Keine Suchergebnisse",
         "ImageResultsFor": "Suchergebnisse für"
+    },
+    "actions": {
+        "EmbedTitle": "Server-Aktionen",
+        "EmbedDesc": "Eine Liste verfügbare Aktionen in diesem Server",
+        "ErrorEmbedTitle": "Error",
+        "ErrorActionsNotFoundEmbedDesc": "Keine verfügbare Aktionen",
+        "SuccessDoneEmbedTitle": "Fertig",
+        "SuccessDoneMinusRole": "Die Rolle `##role_name##` ist vom Nutzer entfernt.",
+        "SuccessDonePlusRole": "Die Rolle `##role_name##` ist hinzugefügt.",
+        "ErrorCantAddRole": "Rolle hinzugefügen erfolglos. Vielleicht felht dem Bot Berechtigungen.",
+        "ErrorCantRemoveRole": "Rolle entfernen erfolglos. Vielleicht felht dem Bot Berechtigungen."
+    },
+    "about": {
+        "EmbedTitle": "Über OxyBot",
+        "EmbedDesc": "OxyBot ist ein Allzweck-Discord.js-Bot entwickelt von [FreeAppSW](https://www.freeappsw.space) als Teil des [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "VersionCatTitle": "Version",
+        "InviteLinkCatTitle": "Bot einladen",
+        "WebsiteCatTitle": "Webseite"
+    },
+    "eightBall": {
+        "EmbedTitle": "8-ball - OxyBot",
+        "EmbedDesc": "Lass die Magie des Eight-Balls deine Frage antworten!",
+        "YourQuestionCatTitle": "Deine Frage",
+        "AnswerCatTitle": "Antwort"
+    },
+    "clearChat": {
+        "SuccessMessage": "`##ntd##` Nachrichten gelöscht.",
+        "ClientNoPermission": "Dir fehlt es die **Nachrichten verwalten** Berechtigung.",
+        "BotCantDeleteError": "Etwas ist schief gelaufen. Vielleicht fehlt es dem Bot die **Nachrichten verwalten** Berechtigung?"
     }
 }

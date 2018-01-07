@@ -92,5 +92,7 @@
 		"QueryErrorMessage": "Ocorreu um erro ao tentar encontrar o servidor da wiki:",
 		"ReadMoreBtn": "Ler mais",
 		"ArticleNotFound": "Nenhum artigo de acordo com a tua pesquisa foi encontrado nesta wiki."
+		"SuccessDoneMinusRole": "O cargo `##role_name##` foi removido do usuário.",
+		"SuccessDonePlusRole": "O cargo`##role_name##` foi adicionado ao usuário."
 	}
 }
