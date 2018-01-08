@@ -64,6 +64,34 @@
 		"ErrorEmbedTitle": "Erro",
 		"ErrorActionsNotFoundEmbedDesc": "Este servidor não tem ações",
 		"SuccessDoneEmbedTitle": "Pronto",
+		"SuccessDoneMinusRole": "O cargo `##role_name##` foi removido ao usuário",
+		"SuccessDonePlusRole": "O cargo`##role_name##` foi adicionado ao usuário",
+		"ErrorCantAddRole": "O OxyBot não conseguiu adicionar um cargo. Talvez o OxyBot não tenha as permissões necessárias",
+		"ErrorCantRemoveRole": "O OxyBot não conseguiu remover o cargo. Talvez o OxyBot não tenha as permissões necessárias"
+	},
+	"about": {
+		"EmbedTitle": "Sobre o OxyBot",
+		"EmbedDesc": "O OxyBot é um bot de multiplos propósitos, criado usando a biblioteca Discord.js, feito pelo [FreeAppSW](https://www.freeappsw.space) como parte da [Oxy-series](https://www.freeappsw.space/oxyseries/).s",
+		"VersionCatTitle": "Versão",
+		"InviteLinkCatTitle": "Adicionar Bot",
+		"WebsiteCatTitle": "Website"
+	},
+	"eightBall": {
+		"EmbedTitle": "8-ball - OxyBot",
+		"EmbedDesc": "Deixa a magia da 8-ball responder à tua pergunta!",
+		"YourQuestionCatTitle": "A tua pergunta",
+		"AnswerCatTitle": "Resposta"
+	},
+	"clearChat": {
+		"SuccessMessage": "`##ntd##` mensagens foram deletadas.",
+		"ClientNoPermission": "Não tens a permissão **Manage Messages**.",
+		"BotCantDeleteError": "Ocorreu um erro ao tentar deletar as mensagens. Talvez o OxyBot não tenha a permissão **Manage Messages**."
+	},
+	"wiki": {
+		"NoQueryMessage": "Não foi fornecida uma pesquisa válida.",
+		"QueryErrorMessage": "Ocorreu um erro ao tentar encontrar o servidor da wiki:",
+		"ReadMoreBtn": "Ler mais",
+		"ArticleNotFound": "Nenhum artigo de acordo com a tua pesquisa foi encontrado nesta wiki."
 		"SuccessDoneMinusRole": "O cargo `##role_name##` foi removido do usuário.",
 		"SuccessDonePlusRole": "O cargo`##role_name##` foi adicionado ao usuário."
 	}
