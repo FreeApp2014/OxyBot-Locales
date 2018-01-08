@@ -92,5 +92,67 @@
         "QueryErrorMessage":"An error has occured while requesting the wiki server:",
         "ReadMoreBtn":"Read More",
         "ArticleNotFound":"No articles matching your search query were found on this wiki."
+    },
+    "website":{
+        "header":{
+            "home":"Home",
+            "help":"Help",
+            "invite":"Invite",
+            "support":"Support",
+            "panelLogin":"Login to Panel",
+            "panelLogout":"Logout",
+            "panelAccess":"Open Panel"
+        },
+        "guildPublic":{
+            "GuildsTitle":"Guilds",
+            "GuildPageInline":"Guild Public Page",
+            "Leaderboard":"Leaderboard"
+        }
+    },
+    "plural":{
+        "member":{
+            "single":"member",
+            "e1":"members",
+            "e2":"members",
+            "e3":"members",
+            "e4":"members",
+            "e5":"members",
+            "e6":"members",
+            "e7":"members",
+            "e8":"members",
+            "e9":"members",
+            "e0":"members",
+            "e11":"members",
+            "e12":"members",
+            "e13":"members",
+            "e14":"members",
+            "e15":"members",
+            "e16":"members",
+            "e17":"members",
+            "e18":"members",
+            "e19":"members"
+        },
+        "channel":{
+            "single":"channel",
+            "e1":"channels",
+            "e2":"channels",
+            "e3":"channels",
+            "e4":"channels",
+            "e5":"channels",
+            "e6":"channels",
+            "e7":"channels",
+            "e8":"channels",
+            "e9":"channels",
+            "e0":"channels",
+            "e11":"channels",
+            "e12":"channels",
+            "e13":"channels",
+            "e14":"channels",
+            "e15":"channels",
+            "e16":"channels",
+            "e17":"channels",
+            "e18":"channels",
+            "e19":"channels"
+        }
     }
 }
