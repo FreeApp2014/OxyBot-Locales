@@ -93,6 +93,19 @@
         "ReadMoreBtn":"Read More",
         "ArticleNotFound":"No articles matching your search query were found on this wiki."
     },
+    "userinfo":{
+	    "EmbedTitle":"User Information",
+	    "UserIdCatTitle":"User ID",
+	    "JoinedThisGuildCatTitle":"Joined this Guild",
+	    "RolesCatTitle":"Roles",
+	    "JoinedDiscordCatTitle":"Joined Discord",
+	    "CurrentGameCatTitle":"Current Game"
+    },
+    "kick":{
+	    "UserSuccessfullyKickedMessage":"Kicked `@##user_name##` from `##guild_name##`",
+        "ErrorClientNoPermission":"You don't have **Kick Members** permission.",
+        "UserKickedDMText":"You were kicked from **##guild_name##**"
+    },
     "website":{
         "header":{
             "home":"Home",
