@@ -34,7 +34,8 @@
             "InformationalCommands":"Informational Commands",
             "FunCommands":"Fun Commands",
             "CustomActions":"Custom Actions",
-            "ModerationCommands":"Moderation Commands"
+            "ModerationCommands":"Moderation Commands",
+            "UtilityCommands":"Utility Commands"
         },
         "cmds":{
             "help":"Show this list",
@@ -50,7 +51,9 @@
             "say":"Sends `content` to chat. Note that message won't be anonymous",
             "action":"Run action",
             "actions":"List all actions from this guild",
-            "clearchat":"Removes `x` messages from chat. Messages older than 14 days can't be removed"
+            "clearchat":"Removes `x` messages from chat. Messages older than 14 days can't be removed",
+	    "pbin":"Creates a paste file with `text` and returns its URL"
+
         },
         "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
     },
@@ -103,8 +106,10 @@
     },
     "kick":{
 	    "UserSuccessfullyKickedMessage":"Kicked `@##user_name##` from `##guild_name##`",
-        "ErrorClientNoPermission":"You don't have **Kick Members** permission.",
-        "UserKickedDMText":"You were kicked from **##guild_name##**"
+            "ErrorClientNoPermission":"You don't have **Kick Members** permission.",
+            "UserKickedDMText":"You were kicked from **##guild_name##**",
+	    "BotNoPermission":"The bot doesn't have **Kick Members** permission.",
+            "UserNotKickable":"The bot permissions are too low to kick this user"
     },
     "website":{
         "header":{
