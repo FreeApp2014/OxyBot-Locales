@@ -86,5 +86,88 @@
         "SuccessMessage":"`##ntd##` messaggi cancellati.",
         "ClientNoPermission":"Non hai il permesso **Manage Messages**.",
         "BotCantDeleteError":"Il bot non e' riuscito a cancellare i messaggi. Forse, non ha il permesso **Manage Messages**?"
+    },
+    "wiki":{
+        "NoQueryMessage":"Non hai specificato nulla da cercare.",
+        "QueryErrorMessage":"Si e' verificato un errore durante la ricerca:",
+        "ReadMoreBtn":"Leggi altro",
+        "ArticleNotFound":"Non e' stato trovato alcun risultato tra gli articoli della wiki."
+    },
+    "userinfo":{
+	    "EmbedTitle":"Informazioni sull'utente",
+	    "UserIdCatTitle":"ID utente",
+	    "JoinedThisGuildCatTitle":"E' entrato nel server",
+	    "RolesCatTitle":"Ruoli",
+	    "JoinedDiscordCatTitle":"Si e' iscritto a Discord",
+	    "CurrentGameCatTitle":"Sta giocando a"
+    },
+    "kick":{
+	    "UserSuccessfullyKickedMessage":"`@##user_name##` e' stato espulso da `##guild_name##`",
+            "ErrorClientNoPermission":"Non hai il permesso **Kick Members**.",
+            "UserKickedDMText":"Sei stato espulso da **##guild_name##**",
+	    "BotNoPermission":"Il bot non ha il permesso **Kick Members**.",
+            "UserNotKickable":"Il bot ha troppi pochi permessi per espellere questo utente."
+    },
+    "website":{
+        "header":{
+            "home":"Home",
+            "help":"Aiuto",
+            "invite":"Invita",
+            "support":"Supporto",
+            "panelLogin":"Accedi al pannello di controllo",
+            "panelLogout":"Disconnetti",
+            "panelAccess":"Apri il pannello di controllo"
+        },
+        "guildPublic":{
+            "GuildsTitle":"Server",
+            "GuildPageInline":"Pagina pubblica del server",
+            "Leaderboard":"Classifica messaggi"
+        }
+    },
+    "plural":{
+        "member":{
+            "single":"membro",
+            "e1":"membri",
+            "e2":"membri",
+            "e3":"membri",
+            "e4":"membri",
+            "e5":"membri",
+            "e6":"membri",
+            "e7":"membri",
+            "e8":"membri",
+            "e9":"membri",
+            "e0":"membri",
+            "e11":"membri",
+            "e12":"membri",
+            "e13":"membri",
+            "e14":"membri",
+            "e15":"membri",
+            "e16":"membri",
+            "e17":"membri",
+            "e18":"membri",
+            "e19":"membri"
+        },
+        "channel":{
+            "single":"canale",
+            "e1":"canali",
+            "e2":"canali",
+            "e3":"canali",
+            "e4":"canali",
+            "e5":"canali",
+            "e6":"canali",
+            "e7":"canali",
+            "e8":"canali",
+            "e9":"canali",
+            "e0":"canali",
+            "e11":"canali",
+            "e12":"canali",
+            "e13":"canali",
+            "e14":"canali",
+            "e15":"canali",
+            "e16":"canali",
+            "e17":"canali",
+            "e18":"canali",
+            "e19":"canali"
+        }
     }
 }
