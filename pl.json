@@ -3,9 +3,9 @@
     "possible8ball":["Tak", "Nie", "Nie wiem", "Z moich źródeł wynika, że to prawda", "Przepraszam, ale wolę nie odpowiadać", "Prawdopodobnie tak", "Prawdopodobnie nie", "Spróbuj kiedy indziej"],
     "welcoming":{
         "welcomeMessageDef":"Mamy nowego członka! Witamy ##mention_user## w **##guild_name##**!",
-        "leaveMessageDef":"Niestety, serwer **##guild_name##** został opuszczony przez **##user_name##** :sob:" 
+        "leaveMessageDef":"Niestety, serwer **##guild_name##** został opuszczony przez **##user_name##** :sob:"
     },
-   "servinfo":{ 
+   "servinfo":{
         "EmbedTitle":"Informacje o serwerze",
         "GuildNameCatTitle":"Nazwa serwera",
         "GuildIdCatTitle":"ID serwera",
@@ -14,13 +14,13 @@
         "MemberCountCatTitle":"Ilość ludzi na serwerze",
         "PublicPageCatTitle":"Publiczna strona",
         "PublicPageClickHereBtn":"Kliknij tutaj",
-        "ChannelsCountCatTitle":"Ilość kanałów", 
-        "VoiceChannelLabelInline":"Głosowych", 
+        "ChannelsCountCatTitle":"Ilość kanałów",
+        "VoiceChannelLabelInline":"Głosowych",
         "TextChannelLabelInline":"Tekstowych",
         "VerificationLevelCatTitle":"Poziom weryfikacji",
         "VoiceRegionCatTitle":"Region serwera głosowego"
     },
-    "chaninfo":{ 
+    "chaninfo":{
         "EmbedTitle":"Informacje o kanale",
         "ChannelNameCatTitle":"Nazwa kanału",
         "ChannelTopicCatTitle":"Opis kanału",
@@ -37,20 +37,21 @@
             "ModerationCommands":"Moderacja"
         },
         "cmds":{
-            "help":"Wyświetl tą listę",
-            "server":"Wyświetl informacje o serwerze",
-            "channel":"Wyświetl informacje o kanale",
-            "userinfo":"Wyświetl informacje o użytkowniku",
-            "wiki":"Przeszukaj Wikipedię",
-            "image":"Przeszukaj grafikę google w poszukiwaniu obrazka",
-            "stats":"Wyświetl status OxyBota",
-            "about":"Wyświetl informacje o bocie",
-            "number":"Wygeneruj losowy numer między `a` i `b`, jeżeli nie podano, 1 i 1000.",
-            "eightBall":"Zapytaj magicznej 8ball pytanie",
-            "say":"Wypisz `tekst` na czat. Pamiętaj, że wiadomość nie jest anonimowa!",
-            "action":"Wykonaj akcję",
-            "actions":"Wyświetl wszystkie akcje w tym serwerze",
-            "clearchat":"Usuwa `x` wiadomości z czatu. Pamiętaj, że OxyBot nie może usuwać wiadomości starszych niż 14 dni!"
+          "help":"Wyświetl tą listę",
+          "server":"Wyświetl informacje o serwerze",
+          "channel":"Wyświetl informacje o kanale",
+          "userinfo":"Wyświetl informacje o użytkowniku",
+          "wiki":"Przeszukaj Wikipedię",
+          "image":"Przeszukaj grafikę google w poszukiwaniu obrazka",
+          "stats":"Wyświetl status OxyBota",
+          "about":"Wyświetl informacje o bocie",
+          "number":"Wygeneruj losowy numer między `a` i `b`, jeżeli nie podano, 1 i 1000.",
+          "eightBall":"Zapytaj magicznej 8ball pytanie",
+          "say":"Wypisz `tekst` na czat. Pamiętaj, że wiadomość nie jest anonimowa!",
+          "action":"Wykonaj akcję",
+          "actions":"Wyświetl wszystkie akcje w tym serwerze",
+          "clearchat":"Usuwa `x` wiadomości z czatu. Pamiętaj, że OxyBot nie może usuwać wiadomości starszych niż 14 dni!",
+	         "pbin":"Tworzy plik tekstowy i zwraca jego adres URL."
         },
         "EmbedFooter":"<arg> - wymagany argument, [arg] - opcjonalny argument;\n*- nie dostępne w tej wersji bota"
     },
@@ -65,6 +66,109 @@
         "ErrorActionsNotFoundEmbedDesc":"Ten serwer nie zawiera żadnych akcji",
         "SuccessDoneEmbedTitle":"Ukończono",
         "SuccessDoneMinusRole":"Dodałem ci rangę `##role_name##`",
-        "SuccessDonePlusRole":"Odebrałem ci rangę `##role_name##`"
+        "SuccessDonePlusRole":"Odebrałem ci rangę `##role_name##`",
+        "ErrorCantAddRole":"Nie mogłem dodać ci tej rangi. Upewnij się, że OxyBot ma odpowiednie uprawnienia.",
+        "ErrorCantRemoveRole":"Nie mogłem odebrać ci tej rangi. Upewnij się, że OxyBot ma odpowiednie uprawnienia."
+    },
+    "about":{
+        "EmbedTitle":"O OxyBocie",
+        "EmbedDesc":"OxyBot jest botem do pełnym możliwości botem do Discorda napisany w Discord.js przez [FreeAppSW](https://www.freeappsw.space) jako część jego [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "VersionCatTitle":"Wersja",
+        "InviteLinkCatTitle":"Dodaj mnie do swojego serwera!",
+        "WebsiteCatTitle":"Strona internetowa"
+    },
+    "eightBall":{
+        "EmbedTitle":"8-ball - OxyBot",
+        "EmbedDesc":"Odpowiedź magicznej 8ball na twoje pytanie",
+        "YourQuestionCatTitle":"Twoje pytanie",
+        "AnswerCatTitle":"Odpowiedź"
+    },
+    "clearChat":{
+        "SuccessMessage":"Usunięto `##ntd##` wiadomości",
+        "ClientNoPermission":"Nie posiadasz uprawnienia **Zarządanie Wiadomościami**.",
+        "BotCantDeleteError":"Wystąpił błąd w trakcie usuwania wiadomości. Sprawdź, czy mam uprawnienie **Zarządanie Wiadomościami**."
+    },
+    "wiki":{
+        "NoQueryMessage":"Nie podano zapytania.",
+        "QueryErrorMessage":"Wystąpił błąd w trakcie nawiązywania połączenia z serwerem wiki:",
+        "ReadMoreBtn":"Przeczytaj więcej",
+        "ArticleNotFound":"Nie odnaleziono artykułów spełniających Twoje kryteria wyszukiwania."
+    },
+    "userinfo":{
+	    "EmbedTitle":"Informacje o użytkowniku",
+	    "UserIdCatTitle":"ID użytkownika",
+	    "JoinedThisGuildCatTitle":"Dołączył(a) do tego serwera:",
+	    "RolesCatTitle":"Posiadane rangi",
+	    "JoinedDiscordCatTitle":"Dołączył(a) do Discorda",
+	    "CurrentGameCatTitle":"Aktualnie gra w:"
+    },
+    "kick":{
+	    "UserSuccessfullyKickedMessage":"Wyrzucono `@##user_name##` z `##guild_name##`",
+            "ErrorClientNoPermission":"Nie posiadasz uprawnienia: **Wyrzucanie członków**.",
+            "UserKickedDMText":"Został(eś/aś) wyrzucon(y/a) z **##guild_name##**",
+	    "BotNoPermission":"Nie mam uprawnienia: **Wyrzucanie członków**.",
+            "UserNotKickable":"Jestem zbyt nisko w hierachi aby wyrzucić tą osobę."
+    },
+    "website":{
+        "header":{
+            "home":"Strona główna",
+            "help":"Pomoc",
+            "invite":"Zaproś OxyBota",
+            "support":"Wsparcie",
+            "panelLogin":"Zaloguj się do Panelu",
+            "panelLogout":"Wyloguj się",
+            "panelAccess":"Otwórz Panel"
+        },
+        "guildPublic":{
+            "GuildsTitle":"Serwery",
+            "GuildPageInline":"Publiczna strona serwera",
+            "Leaderboard":"Lista najbardziej aktywnych członków"
+        }
+    },
+    "plural":{
+        "member":{
+            "single":"Członek",
+            "e1":"Członków",
+            "e2":"Członków",
+            "e3":"Członków",
+            "e4":"Członków",
+            "e5":"Członków",
+            "e6":"Członków",
+            "e7":"Członków",
+            "e8":"Członków",
+            "e9":"Członków",
+            "e0":"Członków",
+            "e11":"Członków",
+            "e12":"Członków",
+            "e13":"Członków",
+            "e14":"Członków",
+            "e15":"Członków",
+            "e16":"Członków",
+            "e17":"Członków",
+            "e18":"Członków",
+            "e19":"Członków"
+        },
+        "channel":{
+            "single":"Kanał",
+            "e1":"Kanałów",
+            "e2":"Kanały",
+            "e3":"Kanały",
+            "e4":"Kanały",
+            "e5":"Kanałów",
+            "e6":"Kanałów",
+            "e7":"Kanałów",
+            "e8":"Kanałów",
+            "e9":"Kanałów",
+            "e0":"Kanałów",
+            "e11":"Kanałów",
+            "e12":"Kanałów",
+            "e13":"Kanałów",
+            "e14":"Kanałów",
+            "e15":"Kanałów",
+            "e16":"Kanałów",
+            "e17":"Kanałów",
+            "e18":"Kanałów",
+            "e19":"Kanałów"
+        }
     }
 }
