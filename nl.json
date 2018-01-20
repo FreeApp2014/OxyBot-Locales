@@ -15,7 +15,7 @@
         "PublicPageCatTitle":"Publieke Pagina",
         "PublicPageClickHereBtn":"Klik Hier",
         "ChannelsCountCatTitle":"Hoeveelheid Kanalen", 
-        "VoiceChannelLabelInline":"Stem", 
+        "VoiceChannelLabelInline":"Stem",
         "TextChannelLabelInline":"Tekst",
         "VerificationLevelCatTitle":"Verificatie Level",
         "VoiceRegionCatTitle":"Server Regio"
@@ -29,33 +29,33 @@
     "help":{
         "DMSentAlert":":incoming_envelope: De informatie is naar jou verstuurd.",
         "EmbedTitle":"OxyBot Help",
-        "EmbedDesc":"You can see a list of OxyBot commands here. You can have more detailed information at https://oxybot.freeappsw.space/help",
+        "EmbedDesc":"Hier kan je een lijst van OxyBot's commandos zien. Je kunt hier meer gedetailleerde informatie zien https://oxybot.freeappsw.space/help",
         "cmdCats":{
-            "InformationalCommands":"Informational Commands",
-            "FunCommands":"Fun Commands",
-            "CustomActions":"Custom Actions",
-            "ModerationCommands":"Moderation Commands"
+            "InformationalCommands":"Informatieve Commandos",
+            "FunCommands":"Leuke Commandos",
+            "CustomActions":"Aangepaste acties",
+            "ModerationCommands":"Moderatie Commandos"
         },
         "cmds":{
-            "help":"Show this list",
-            "server":"Show current guild information",
-            "channel":"Show current channel information",
-            "userinfo":"Show user's details",
-            "wiki":"Search wiki for a query",
-            "image":"Search for image online",
-            "stats":"Show OxyBot's status",
-            "about":"Show information about the bot",
-            "number":"Generate a random number between `a` and `b`, if not specified, 1 and 1000.",
-            "eightBall":"Ask the Magic Eight-Ball a question",
-            "say":"Sends `content` to chat. Note that message won't be anonymous",
-            "action":"Run action",
-            "actions":"List all actions from this guild",
-            "clearchat":"Removes `x` messages from chat. Messages older than 14 days can't be removed"
+            "help":"Laat deze lijst zien",
+            "server":"Laat informatie over deze server zien",
+            "channel":"Laat informatie over dit kanaal zien",
+            "userinfo":"Laat een gebruiker zijn informatie zien",
+            "wiki":"Zoekt voor een wikipedia pagina",
+            "image":"Zoekt voor een afbeelding online",
+            "stats":"Toon OxyBot status",
+            "about":"Toon OxyBot informatie",
+            "number":"Genereer een willekeurig nummer tussen `a` en `b`, wanneer dit niet is gespecificeerd wordt er een nummer tussen 1 and 1000 gekozen.",
+            "eightBall":"Vraag de magische 8ball een vraag",
+            "say":"Stuurt `inhoud` naar de chat. Dit bericht is niet anoniem",
+            "action":"Voer actie uit",
+            "actions":"Maak een lijst van alle acties van deze server",
+            "clearchat":"Verwijdert `x` berichten uit de chat. Berichten die ouder zijn dan 14 dagen kunnen niet worden verwijderd"
         },
-        "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
+        "EmbedFooter":"<arg> - verplicht argument, [arg] - optioneel argument;\n*-nog niet beschikbaar in deze versie"
     },
     "image":{
-        "ErrorNoResult":"No results found for",
-        "ImageResultsFor":"Image search result for"
+        "ErrorNoResult":"Geen resultaten gevonden voor",
+        "ImageResultsFor":"Afbeelding resultaten voor"
     }
 }
