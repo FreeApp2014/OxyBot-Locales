@@ -35,7 +35,8 @@
             "FunCommands":"Fun Commands",
             "CustomActions":"Custom Actions",
             "ModerationCommands":"Moderation Commands",
-            "UtilityCommands":"Utility Commands"
+            "UtilityCommands":"Utility Commands",
+	    "Music":"Music (unstable)"
         },
         "cmds":{
             "help":"Show this list",
@@ -52,7 +53,12 @@
             "action":"Run action",
             "actions":"List all actions from this guild",
             "clearchat":"Removes `x` messages from chat. Messages older than 14 days can't be removed",
-	    "pbin":"Creates a paste file with `text` and returns its URL"
+	    "pbin":"Creates a paste file with `text` and returns its URL",
+	    "play":"Starts playing a track in current voice channel or adds it to queue. Only YouTube links are supported",
+            "join":"Joins the voice channel you are connected to",
+            "stop":"Force stops audio playback",
+            "np":"Displays currently playing track",
+            "queue":"Shows play queue"
 
         },
         "EmbedFooter":"<arg> - mandatory argument, [arg] - optional argument;\n*-not available yet in this build"
@@ -110,6 +116,15 @@
             "UserKickedDMText":"You were kicked from **##guild_name##**",
 	    "BotNoPermission":"The bot doesn't have **Kick Members** permission.",
             "UserNotKickable":"The bot permissions are too low to kick this user"
+    },
+    "music":{
+            "NowPlayingMessage":"Now playing: ",
+            "AddedToQueue":"Enqueued ##song## to be played.",
+            "QueueConcluded":"Queue concluded.",
+            "PlayerQueue":"Music Queue:",
+            "JoinedVC": "Joined voice channel `##vc_name##`",
+            "LeftVC":"Left voice channel",
+            "StoppedPlayer":"Stopped audio player"
     },
     "website":{
         "header":{
