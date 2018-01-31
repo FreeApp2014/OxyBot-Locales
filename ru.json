@@ -35,7 +35,8 @@
             "FunCommands":"Развлечения",
             "CustomActions":"Custom Actions",
             "ModerationCommands":"Модерация",
-            "UtilityCommands":"Утилиты"
+            "UtilityCommands":"Утилиты",
+	    "Music":"Музыка"
         },
         "cmds":{
             "help":"Показать список команд",
@@ -52,7 +53,12 @@
             "action":"Run action",
             "actions":"List all actions from this guild",
             "clearchat":"Удалить `x` сообщений из текущего канала не старше 14 дней.",
-            "pbin":"Помещает `text` в файл и отправляет его URL"
+            "pbin":"Помещает `text` в файл и отправляет его URL",
+	    "play":"Включить трек или добавить его в очередь. Поддерживаются ссылки на видео YouTube",
+            "join":"Присоединиться к Вашему голосовому каналу",
+            "stop":"Принудительно остановить плеер",
+            "np":"Показать, что сейчас воспроизводится",
+            "queue":"Показать очередь воспроизведения"
         },
         "EmbedFooter":"<arg> - обязательный аргумент, [arg] - необязательный аргумент;\n*-недоступно в текущей сборке"
     },
@@ -100,15 +106,15 @@
         "ArticleNotFound":"На данном вики нет статей по данному запросу."
     },
     "userinfo":{
-	    "EmbedTitle":"Информация о пользователе",
-	    "UserIdCatTitle":"ID",
-	    "JoinedThisGuildCatTitle":"На этом сервере с:",
-	    "RolesCatTitle":"Роли",
-	    "JoinedDiscordCatTitle":"Пользователь Discord с:",
-	    "CurrentGameCatTitle":"Сейчас играет в:"
+	 "EmbedTitle":"Информация о пользователе",
+	 "UserIdCatTitle":"ID",
+	 "JoinedThisGuildCatTitle":"На этом сервере с:",
+	 "RolesCatTitle":"Роли",
+	 "JoinedDiscordCatTitle":"Пользователь Discord с:",
+	 "CurrentGameCatTitle":"Сейчас играет в:"
     },
     "kick":{
-	    "UserSuccessfullyKickedMessage":"`@##user_name##` успешно кикнут из `##guild_name##`",
+	"UserSuccessfullyKickedMessage":"`@##user_name##` успешно кикнут из `##guild_name##`",
         "ErrorClientNoPermission":"У Вас нет права **Kick Members**.",
         "UserKickedDMText":"Вы кикнуты из **##guild_name##**",
         "BotNoPermission":"У бота нет права **Kick Members**.",
@@ -116,6 +122,15 @@
     },
     "paster":{
         "PasteCreated":"Файл создан: ##gist_url##"
+    },
+    "music":{
+        "NowPlayingMessage":"Сейчас играет: ",
+        "AddedToQueue":"##song## добавлена в очередь.",
+        "QueueConcluded":"Конец очереди",
+        "PlayerQueue":"Очередь воспроизведения:",
+        "JoinedVC": "Подключился к каналу `##vc_name##`",
+        "LeftVC":"Вышел из канала",
+        "StoppedPlayer":"Плеер остановлен"
     },
     "website":{
         "header":{
