@@ -11,8 +11,8 @@
         "Versuch's erneut später"
     ],
     "welcoming": {
-        "welcomeMessageDef": "##mention_user## ist endlich vorbeigekommen! (in **##guild_name##**)",
-        "leaveMessageDef": "Leider hat **##user_name##** **##guild_name##** gelassen :sob:"
+        "welcomeMessageDef": "##mention_user## ist endlich hergekommen! (in **##guild_name##**)",
+        "leaveMessageDef": "Leider hat **##user_name##** **##guild_name##** verlassen :sob:"
     },
     "servinfo": {
         "EmbedTitle": "Information zum Server",
@@ -36,7 +36,7 @@
         "ChannelIdCatTitle": "Kanal ID"
     },
     "help": {
-        "DMSentAlert": ":incoming_envelope: die Information wurde als Privatnachricht gesendet.",
+        "DMSentAlert": ":incoming_envelope: Die Information wurde als Privatnachricht gesendet.",
         "EmbedTitle": "OxyBot Hilfe",
         "EmbedDesc": "OxyBot Befehle. Mehr Informationen hier: https://oxybot.freeappsw.space/help",
         "cmdCats": {
@@ -50,8 +50,8 @@
             "server": "Info zum Server anzeigen",
             "channel": "Info zum Kanal anzeigen",
             "userinfo": "Nutzerinfo anzeigen",
-            "wiki": "wiki suchen",
-            "image": "fotos suchen",
+            "wiki": "Wiki suchen",
+            "image": "Fotos suchen",
             "stats": "OxyBot Status anzeigen",
             "about": "OxyBot-Info anzeigen",
             "number": "Zufallszahlgenerator: Zahl zwischen `a` und `b`. 1-1000 falls nicht spezifiziert",
@@ -70,13 +70,13 @@
     "actions": {
         "EmbedTitle": "Server-Aktionen",
         "EmbedDesc": "Eine Liste verfügbare Aktionen in diesem Server",
-        "ErrorEmbedTitle": "Error",
+        "ErrorEmbedTitle": "Fehler",
         "ErrorActionsNotFoundEmbedDesc": "Keine verfügbare Aktionen",
         "SuccessDoneEmbedTitle": "Fertig",
         "SuccessDoneMinusRole": "Die Rolle `##role_name##` ist vom Nutzer entfernt.",
         "SuccessDonePlusRole": "Die Rolle `##role_name##` ist hinzugefügt.",
-        "ErrorCantAddRole": "Rolle hinzugefügen erfolglos. Vielleicht felht dem Bot Berechtigungen.",
-        "ErrorCantRemoveRole": "Rolle entfernen erfolglos. Vielleicht felht dem Bot Berechtigungen."
+        "ErrorCantAddRole": "Rolle konnte nicht hinzugefügt werden. Vielleicht felht dem Bot Berechtigungen.",
+        "ErrorCantRemoveRole": "Rolle konnte nich entfernt werden. Vielleicht felht dem Bot Berechtigungen."
     },
     "about": {
         "EmbedTitle": "Über OxyBot",
