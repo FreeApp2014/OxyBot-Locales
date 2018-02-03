@@ -1,90 +1,214 @@
 {
-    "userFriendlyLocaleName":"French", 
-    "possible8ball":["Oui", "Non", "Je ne sais pas", "Mes sources disent vrai", "Je suis désolé, mais je voudrais mieux pas répondre", "Plus probablement oui", "Plus probablement non", "Réessaye plus tard"],
-    "welcoming":{ 
-        "welcomeMessageDef":"Nous avons eu un nouveau membre ici ! Souhaitez la bienvenue à ##mention_user## sur **##guild_name##** !",
-        "leaveMessageDef":"Malheureusement, **##user_name##** a quitté **##guild_name##** :sob:" 
+  "userFriendlyLocaleName": "French",
+  "possible8ball": ["Oui", "Non", "Je ne sais pas", "Mes sources disent vrai", "Je suis desolé, mais je ne préfère pas reponde",
+    "Plus probablement oui", "Plus probablement no", "Ré-essayez plus tard"
+  ],
+  "welcoming":
+  {
+    "welcomeMessageDef": "Nous avons un nouveau membre ici! Bienvenue ##mention_user## à **##guild_name##**!",
+    "leaveMessageDef": "Malheureusement, **##user_name##** a quitté **##guild_name##** :sob:"
+  },
+  "servinfo":
+  {
+    "EmbedTitle": "Informations du Serveur",
+    "GuildNameCatTitle": "Nom du serveur",
+    "GuildIdCatTitle": "ID du serveur",
+    "GuildOwnerCatTitle": "Créateur du serveur",
+    "GuildCreatedCatTitle": "Serveur créé",
+    "MemberCountCatTitle": "Nombre de membres",
+    "PublicPageCatTitle": "Page publique",
+    "PublicPageClickHereBtn": "Cliquez ici",
+    "ChannelsCountCatTitle": "Nombre de canaux",
+    "VoiceChannelLabelInline": "Voix",
+    "TextChannelLabelInline": "Text",
+    "VerificationLevelCatTitle": "Niveau de verification",
+    "VoiceRegionCatTitle": "Region vocale"
+  },
+  "chaninfo":
+  {
+    "EmbedTitle": "Information du Canal",
+    "ChannelNameCatTitle": "Nom du canal",
+    "ChannelTopicCatTitle": "Topic du canal",
+    "ChannelIdCatTitle": "ID du canal"
+  },
+  "help":
+  {
+    "DMSentAlert": ":incoming_envelope: Les informations on été envoyées dans vos messages privés!",
+    "EmbedTitle": "Aide OxyBot",
+    "EmbedDesc": "Vous pouvez voire une list de commandes pour OxyBot ici. Vous pouvez avoir des informations plus détailées at https://oxybot.freeappsw.space/help",
+    "cmdCats":
+    {
+      "InformationalCommands": "Commandes d'information",
+      "FunCommands": "Commandes amusantes",
+      "CustomActions": "Actions personnalisées",
+      "ModerationCommands": "Commandes de moderation",
+      "UtilityCommands": "Commandes utiles",
+      "Music": "Musique (instable)"
     },
-    "servinfo":{ 
-        "EmbedTitle":"Informations du serveur",
-        "GuildNameCatTitle":"Nom du serveur",
-        "GuildIdCatTitle":"ID du serveur",
-        "GuildOwnerCatTitle":"Administrateur du serveur",
-        "GuildCreatedCatTitle":"Date de la création du serveur",
-        "MemberCountCatTitle":"Nombre de membres",
-        "PublicPageCatTitle":"Page publique",
-        "PublicPageClickHereBtn":"Clique ici",
-        "ChannelsCountCatTitle":"Nombre de salons", 
-        "VoiceChannelLabelInline":"Vocaux", 
-        "TextChannelLabelInline":"Textuels",
-        "VerificationLevelCatTitle":"Niveau de vérification",
-        "VoiceRegionCatTitle":"Région vocal"
+    "cmds":
+    {
+      "help": "Afficher cette liste",
+      "server": "Afficher les informations du serveur",
+      "channel": "Afficher les informations du canal",
+      "userinfo": "Afficher les informations de l'utilisateur",
+      "wiki": "Rechercher dans le wiki",
+      "image": "Rechercher une image en ligne",
+      "stats": "Afficher le status d'OxyBot",
+      "about": "Afficher les informations à propos d'OxyBot",
+      "number": "Génrere un nombre aleatoire entre `a` et `b`, si non specifié, entre 1 et 1000.",
+      "eightBall": "Demender une question à la boule 8 magique",
+      "say": "Envoyer un message dans un chat. Notez que le message ne sera pas anonyme",
+      "action": "Executer une action",
+      "actions": "Lister toutes les actions pour ce serveur",
+      "clearchat": "Supprimer `x` messages du canal. Les messages plus vieux que 14 jours ne peuvent pas être enléves",
+      "pbin": "Créér un fichier presse-papier avec du texte et retourner son URL",
+      "play": "Commencer à jouer une musique dans le canal vocal ou l'ajoute à la queue. Uniquement les liens youtube sont supportés",
+      "join": "Rejoindre le canal vocal vous êtes connéctes à",
+      "stop": "Arreter de force le playback",
+      "np": "Affiche la musique en cours",
+      "queue": "Montrer la liste des musiques"
+
     },
-    "chaninfo":{ 
-        "EmbedTitle":"Informations du salon",
-        "ChannelNameCatTitle":"Nom du salon",
-        "ChannelTopicCatTitle":"Sujet du salon",
-        "ChannelIdCatTitle":"ID du salon"
+    "EmbedFooter": "<arg> - argument obligatoire, [arg] - argument optionel;\n*-non disponible pour l'instant"
+  },
+  "image":
+  {
+    "ErrorNoResult": "Aucun résultat trouvé pour",
+    "ImageResultsFor": "Recherche d'image pour"
+  },
+  "actions":
+  {
+    "EmbedTitle": "Actions du serveur",
+    "EmbedDesc": "Ici, vous pouvez voire une list de toutes les actions personnalisées disponibles dans ce serveur",
+    "ErrorEmbedTitle": "Erreur",
+    "ErrorActionsNotFoundEmbedDesc": "Ce serveur n'a aucune action disponible",
+    "SuccessDoneEmbedTitle": "Terminé",
+    "SuccessDoneMinusRole": "Le rôle `##role_name##` a été enlevé de l'utilisateur",
+    "SuccessDonePlusRole": "Le rôle `##role_name##` a été rajouté à l'utilisateur",
+    "ErrorCantAddRole": "Le robot n'a pas pu ajouter le rôle. Peux-être, qu'il manque les permissions?",
+    "ErrorCantRemoveRole": "Le robot n'a pas pu enlever le rôle. Peux-être, qu'il manque les permissions?"
+  },
+  "about":
+  {
+    "EmbedTitle": "À propos d'OxyBot",
+    "EmbedDesc": "OxyBot est un robot multifonction fait avec Discord.js dirigé par [FreeAppSW](https://www.freeappsw.space) en partie des [Séries-Oxy](https://www.freeappsw.space/oxyseries/).",
+    "VersionCatTitle": "Version",
+    "InviteLinkCatTitle": "Ajouter le robot",
+    "WebsiteCatTitle": "Site web"
+  },
+  "eightBall":
+  {
+    "EmbedTitle": "Boule-8 - OxyBot",
+    "EmbedDesc": "Laissez la boule 8 magique répondre à votre question!",
+    "YourQuestionCatTitle": "Votre question",
+    "AnswerCatTitle": "Réponse"
+  },
+  "clearChat":
+  {
+    "SuccessMessage": "##ntd##` méssages ont été supprimés.",
+    "ClientNoPermission": "Vous n'avez pas la permission **Gérer les messages**.",
+    "BotCantDeleteError": "Il y a une erreur en supprimant les messages. Peux-être, qu'il manque la permission **Gérer les messages**?"
+  },
+  "wiki":
+  {
+    "NoQueryMessage": "Aucun élément de recherche n'a été specifié.",
+    "QueryErrorMessage": "Une erreur est survenue en cherchant:",
+    "ReadMoreBtn": "Lire Plus",
+    "ArticleNotFound": "Aucun article correspondant à vos mots-clés ont été trouvés sur le wiki."
+  },
+  "userinfo":
+  {
+    "EmbedTitle": "Information Utilisateur",
+    "UserIdCatTitle": "ID utilisateur",
+    "JoinedThisGuildCatTitle": "a rejoins ce serveur",
+    "RolesCatTitle": "Rôles",
+    "JoinedDiscordCatTitle": "a rejoins discord",
+    "CurrentGameCatTitle": "jeu actuel"
+  },
+  "kick":
+  {
+    "UserSuccessfullyKickedMessage": "Expulsé `@##user_name##` de `##guild_name##`",
+    "ErrorClientNoPermission": "Vouns n'avez pas la permission **Expulser des Members**.",
+    "UserKickedDMText": "Vous avez été expulsé de **##guild_name##**",
+    "BotNoPermission": "Le robot n'a pas les permissions **Expulser des Members**.",
+    "UserNotKickable": "Les permissions du robot sont trop faibles pour expulser cet utilisateur"
+  },
+  "music":
+  {
+    "NowPlayingMessage": "Musique actuelle: ",
+    "AddedToQueue": "La musique ##song## a été mise en file d'attente.",
+    "QueueConcluded": "File terminée.",
+    "PlayerQueue": "File d'atente:",
+    "JoinedVC": "J'ai rejoins le canal audio `##vc_name##`",
+    "LeftVC": "J'ai quitté le canal audio",
+    "StoppedPlayer": "AUdio arrété"
+  },
+  "website":
+  {
+    "header":
+    {
+      "home": "Page principale",
+      "help": "Aide",
+      "invite": "Inviter",
+      "support": "Support",
+      "panelLogin": "Se connecter",
+      "panelLogout": "Se déconnecter",
+      "panelAccess": "Ouvrir le panneau de configuration"
     },
-    "help":{
-        "DMSentAlert":":incoming_envelope: L'information a été envoyé dans vos messages privés.",
-        "EmbedTitle":"Aide d'OxyBot",
-        "EmbedDesc":"Vous pouvez voir la liste des commandes d'OxyBot ici. Vous pouvez avoir plus d'informations détailées sur https://oxybot.freeappsw.space/help",
-        "cmdCats":{
-            "InformationalCommands":"Commandes Informationelles",
-            "FunCommands":"Commandes amusantes",
-            "CustomActions":"Actions personalisées",
-            "ModerationCommands":"Commandes de modération"
-        },
-        "cmds":{
-            "help":"Afficher cette liste",
-            "server":"Afficher les informations du serveur actuel",
-            "channel":"Afficher les informations du salon actuel",
-            "userinfo":"Afficher les détails de l'utilisateur",
-            "wiki":"Rechercher sur le wiki pour une requête",
-            "image":"Rechercher des images en ligne",
-            "stats":"Afficher la présence d'OxyBot",
-            "about":"Afficher des informations à propos du robot",
-            "number":"Générer un nombre aléatoire entre `a` et `b`, si non spécifié, entre 1 et 1000.",
-            "eightBall":"Demander à Magic Eight-Ball une question",
-            "say":"Envoi `content` dans le chat. A noté que ce message sera visible pour tout le monde",
-            "action":"Executer une action",
-            "actions":"Lister toutes les actions de ce serveur",
-            "clearchat":"Supprime `x` messages du chat. Les messages plus vieux que 14 jours ne peuvent pas être supprimés"
-        },
-        "EmbedFooter":"<arg> - argument obligatoire, [arg] - argument optionel;\n*-pas encore disponible dans cette version"
-    },
-    "image":{
-        "ErrorNoResult":"Pas de résultats trouvés pour",
-        "ImageResultsFor":"Résultats de la requête d'images pour"
-    },
-    "actions":{
-        "EmbedTitle":"Actions du serveur",
-        "EmbedDesc":"Ici vous pouvez voir une liste de toutes les actions personalisés disponibles",
-        "ErrorEmbedTitle":"Erreur",
-        "ErrorActionsNotFoundEmbedDesc":"Ce serveur n'a aucune actions.",
-        "SuccessDoneEmbedTitle":"Terminé",
-        "SuccessDoneMinusRole":"Le rôle `##role_name##` a été supprimé de l'utilisateur.",
-        "SuccessDonePlusRole":"The role `##role_name##` a été ajouté à l'utilisateur.",
-        "ErrorCantAddRole":"Le robot n'est pas capable d'ajouter ce rôle. Peut être, lui manque-t-il de permissions ?",
-        "ErrorCantRemoveRole":"Le robot n'est pas capable de supprimer ce rôle. Peut être, lui manque-t-il de permissions ?"
-    },
-    "about":{
-        "EmbedTitle":"A propos d'OxyBot",
-        "EmbedDesc":"OxyBot est un robot Discord.Js polyvalent créé par [FreeAppSW](https://www.freeappsw.space) faisant partie de [Oxy-series](https://www.freeappsw.space/oxyseries/).",
-        "VersionCatTitle":"Version",
-        "InviteLinkCatTitle":"Ajouter le robot",
-        "WebsiteCatTitle":"Site web"
-    },
-    "eightBall":{
-        "EmbedTitle":"8-ball - OxyBot",
-        "EmbedDesc":"Laisser la magie du Eight-Ball répondre à votre question !",
-        "YourQuestionCatTitle":"Votre question",
-        "AnswerCatTitle":"Réponse"
-    },
-    "clearChat":{
-        "SuccessMessage":"`##ntd##` messages supprimés.",
-        "ClientNoPermission":"Vous n'avez pas la permission **Manage Messages**.",
-        "BotCantDeleteError":"Il y a eu une erreur pendant la suppression des messages. Peut être, le robot manque la permission **Manage Messages** ?"
+    "guildPublic":
+    {
+      "GuildsTitle": "Serveurs",
+      "GuildPageInline": "Page publique serveurs",
+      "Leaderboard": "Leaderboard"
     }
+  },
+  "plural":
+  {
+    "member":
+    {
+      "single": "membre",
+      "e1": "membres",
+      "e2": "membres",
+      "e3": "membres",
+      "e4": "membres",
+      "e5": "membres",
+      "e6": "membres",
+      "e7": "membres",
+      "e8": "membres",
+      "e9": "membres",
+      "e0": "membres",
+      "e11": "membres",
+      "e12": "membres",
+      "e13": "membres",
+      "e14": "membres",
+      "e15": "membres",
+      "e16": "membres",
+      "e17": "membres",
+      "e18": "membres",
+      "e19": "membres"
+    },
+    "channel":
+    {
+      "single": "cannal",
+      "e1": "canaux",
+      "e2": "canaux",
+      "e3": "canaux",
+      "e4": "canaux",
+      "e5": "canaux",
+      "e6": "canaux",
+      "e7": "canaux",
+      "e8": "canaux",
+      "e9": "canaux",
+      "e0": "canaux",
+      "e11": "canaux",
+      "e12": "canaux",
+      "e13": "canaux",
+      "e14": "canaux",
+      "e15": "canaux",
+      "e16": "canaux",
+      "e17": "canaux",
+      "e18": "canaux",
+      "e19": "canaux"
+    }
+  }
 }
