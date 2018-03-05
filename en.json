@@ -103,28 +103,37 @@
         "ArticleNotFound":"No articles matching your search query were found on this wiki."
     },
     "userinfo":{
-	    "EmbedTitle":"User Information",
-	    "UserIdCatTitle":"User ID",
-	    "JoinedThisGuildCatTitle":"Joined this Guild",
-	    "RolesCatTitle":"Roles",
-	    "JoinedDiscordCatTitle":"Joined Discord",
-	    "CurrentGameCatTitle":"Current Game"
+	"EmbedTitle":"User Information",
+	"UserIdCatTitle":"User ID",
+	"JoinedThisGuildCatTitle":"Joined this Guild",
+	"RolesCatTitle":"Roles",
+	"JoinedDiscordCatTitle":"Joined Discord",
+	"CurrentGameCatTitle":"Current Game"
     },
     "kick":{
-	    "UserSuccessfullyKickedMessage":"Kicked `@##user_name##` from `##guild_name##`",
-            "ErrorClientNoPermission":"You don't have **Kick Members** permission.",
-            "UserKickedDMText":"You were kicked from **##guild_name##**",
-	    "BotNoPermission":"The bot doesn't have **Kick Members** permission.",
-            "UserNotKickable":"The bot permissions are too low to kick this user"
+	"UserSuccessfullyKickedMessage":"Kicked `@##user_name##` from `##guild_name##`",
+        "ErrorClientNoPermission":"You don't have **Kick Members** permission.",
+        "UserKickedDMText":"You were kicked from **##guild_name##**",
+	"BotNoPermission":"The bot doesn't have **Kick Members** permission.",
+        "UserNotKickable":"The bot permissions are too low to kick this user"
     },
     "music":{
-            "NowPlayingMessage":"Now playing: ",
-            "AddedToQueue":"Enqueued ##song## to be played.",
-            "QueueConcluded":"Queue concluded.",
-            "PlayerQueue":"Music Queue:",
-            "JoinedVC": "Joined voice channel `##vc_name##`",
-            "LeftVC":"Left voice channel",
-            "StoppedPlayer":"Stopped audio player"
+        "NowPlayingMessage":"Now playing: ",
+        "AddedToQueue":"Enqueued ##song## to be played.",
+        "QueueConcluded":"Queue concluded.",
+        "PlayerQueue":"Music Queue:",
+        "JoinedVC": "Joined voice channel `##vc_name##`",
+        "LeftVC":"Left voice channel",
+        "StoppedPlayer":"Stopped audio player"
+    },
+    "gateways":{
+        "GWConnectedMessage":"Connected channel to Gateway `##gw_id##`. To disconnect use `##disconnect_command##`",
+        "ErrorNotFound":"This Gateway does not exist.",
+        "ErrorAlreadyConnected":"You must disconnect from other Gateway first",
+        "ErrorAllSlotsBusy":"Sorry, there are no more free slots in this Gateway.",
+        "GWDisconnectedMessage":"Disconnected channel from Gateway.",
+        "GWCreatedMessage":"Gateway `##gw_id##` successfully created",
+        "GWInformationEmbedTitle":"Gateway Infomation"
     },
     "website":{
         "header":{
@@ -135,6 +144,16 @@
             "panelLogin":"Login to Panel",
             "panelLogout":"Logout",
             "panelAccess":"Open Panel"
+        },
+	"panel":{
+            "openGuild":"Access Panel",
+            "PanelsTitle":"Panels",
+            "PaneGeneral":"General",
+            "PaneWelcoming":"Welcoming",
+            "PaneActions":"Custom Actions",
+            "PaneLeaderboard":"Leaderboard",
+            "PanePublicPage":"Public Page",
+            "loggedInAs":"Logged in as:"
         },
         "guildPublic":{
             "GuildsTitle":"Guilds",
