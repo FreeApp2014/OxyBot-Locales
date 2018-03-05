@@ -72,18 +72,18 @@
     },
     "actions":{
         "EmbedTitle":"Guild Actions",
-        "EmbedDesc":"Here you can see a list of all custom actions available in this guild",
+        "EmbedDesc":"Список действий, доступнх в этом сервере",
         "ErrorEmbedTitle":"Ошибка",
-        "ErrorActionsNotFoundEmbedDesc":"This guild does not have any actions",
-        "SuccessDoneEmbedTitle":"Done",
-        "SuccessDoneMinusRole":"The role `##role_name##` has been removed from user.",
-        "SuccessDonePlusRole":"The role `##role_name##` has been added to user.",
-        "ErrorCantAddRole":"The bot was unable to add the role. Perhaps, it lacks permissions?",
-        "ErrorCantRemoveRole":"The bot was unable to remove the role. Perhaps, it lacks permissions?"
+        "ErrorActionsNotFoundEmbedDesc":"У сервера нет действия",
+        "SuccessDoneEmbedTitle":"Готово",
+        "SuccessDoneMinusRole":"Роль `##role_name##` убрана у пользователя.",
+        "SuccessDonePlusRole":"Роль `##role_name##` добавлена пользователю.",
+        "ErrorCantAddRole":"Бот не смог добавить роль. Возможно, у него не хватает прав?",
+        "ErrorCantRemoveRole":"Бот не смог убрать роль. Возможно, у него не хватает прав?"
     },
     "about":{
         "EmbedTitle":"Об OxyBot",
-        "EmbedDesc":"OxyBot is a multipurpose [Discord.js](https://discord.js.org) bot made by [FreeAppSW](https://www.freeappsw.space) as a part of [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "EmbedDesc":"OxyBot - это многофункциональный бот, написанный [FreeAppSW](https://www.freeappsw.space) на [Discord.js](https://discord.js.org) в составе [Oxy-series](https://www.freeappsw.space/oxyseries/).",
         "VersionCatTitle":"Версия",
         "InviteLinkCatTitle":"Добавить к себе",
         "WebsiteCatTitle":"Сайт"
@@ -96,8 +96,8 @@
     },
     "clearChat":{
         "SuccessMessage":"Удалено сообщений: `##ntd##`.",
-        "ClientNoPermission":"У Вас нет права **Manage Messages**.",
-        "BotCantDeleteError":"Не удалось удалить сообщения. Возможно, у бота нет права **Manage Messages**?"
+        "ClientNoPermission":"У Вас нет разрешения на **Управление Сообщениями**.",
+        "BotCantDeleteError":"Не удалось удалить сообщения. Возможно, у бота нет разрешения на **Управление Сообщениями**?"
     },
     "wiki":{
         "NoQueryMessage":"Введите запрос.",
@@ -116,9 +116,9 @@
     "kick":{
 	"UserSuccessfullyKickedMessage":"`@##user_name##` успешно кикнут из `##guild_name##`",
         "ErrorClientNoPermission":"У Вас нет права **Kick Members**.",
+        "ErrorClientNoPermission":"У Вас нет права **Выгнать Участников**.",
         "UserKickedDMText":"Вы кикнуты из **##guild_name##**",
-        "BotNoPermission":"У бота нет права **Kick Members**.",
-        "UserNotKickable":"У бота слишком мало прав, чтобы кикнуть этого пользователя"
+        "BotNoPermission":"У бота нет права **Выгнать Участников**.",
     },
     "paster":{
         "PasteCreated":"Файл создан: ##gist_url##"
@@ -132,6 +132,15 @@
         "LeftVC":"Вышел из канала",
         "StoppedPlayer":"Плеер остановлен"
     },
+    "gateways":{
+        "GWConnectedMessage":"Канал подключен к Gateway `##gw_id##`. Чтобы отключиться используйте `##disconnect_command##`",
+        "ErrorNotFound":"Данный Gateway не существует.",
+        "ErrorAlreadyConnected":"Сначала отключитесь от текущего Gateway",
+        "ErrorAllSlotsBusy":"К сожалению, данный Gateway переполнен.",
+        "GWDisconnectedMessage":"Канал отключен от Gateway.",
+        "GWCreatedMessage":"Gateway `##gw_id##` создан",
+        "GWInformationEmbedTitle":"Информация о Gateway"
+    },
     "website":{
         "header":{
             "home":"Главная",
@@ -141,6 +150,16 @@
             "panelLogin":"Войти в Панель",
             "panelLogout":"Выйти",
             "panelAccess":"Показать Панели"
+        },
+	"panel":{
+            "openGuild":"Открыть панель",
+            "PanelsTitle":"Панели",
+            "PaneGeneral":"Основные",
+            "PaneWelcoming":"Приветствия",
+            "PaneActions":"Команды сервера",
+            "PaneLeaderboard":"Список лидеров",
+            "PanePublicPage":"Публичная страница",
+            "loggedInAs":"Вы вошли под именем"
         },
         "guildPublic":{
             "GuildsTitle":"Серверы",
