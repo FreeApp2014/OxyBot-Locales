@@ -153,7 +153,24 @@
             "PaneActions":"Custom Actions",
             "PaneLeaderboard":"Leaderboard",
             "PanePublicPage":"Public Page",
-            "loggedInAs":"Logged in as:"
+            "loggedInAs":"Logged in as:",
+	    "General":{
+            	"GuildLocale":"Guild Locale",
+                "GuildLocaleDesc":"The guild locale sets the locale of the bot messages sent to chats or DM from this guild. It does not affect the commands or the website locale.",
+                "PanelAccess":"Access to Panel",
+                "UsersHavingAccess":"Users having access to Panel now:",
+                "YouOwner":"You are the owner of this guild.",
+                "EditWhitelist":"Edit Panel access whitelist",
+                "EditWhitelistShort":"Edit Whitelist",
+                "WhitelistAlertifyLabel":"Whitelist",
+                "AllUsersAlertifyLabel":"Users",
+                "ApplyAlertifyBtn":"Apply",
+                "OwnerDesc":"These users have unlimited access to this Panel except not being able to edit the whitelist.",
+                "EmptyList":"(empty list)"
+            },
+            "AppliedSuccess":"Settings applied",
+            "Ratelimited":"Try again in around 5 seconds",
+            "UnknownError":"Unknown error:" 
         },
         "guildPublic":{
             "GuildsTitle":"Guilds",
