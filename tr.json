@@ -1,0 +1,239 @@
+{
+    "userFriendlyLocaleName":"Türkçe", 
+    "possible8ball":["Evet", "Hayır", "Bilmiyorum", "Kaynaklarım doğru olduğunu söylüyor", "Üzgünüm ama cevap vermemeyi tercih ederim", "Muhtemelen öyle", "Muhtemelen öyle değil", "Daha sonra tekrar dene"],
+    "welcoming":{ 
+        "welcomeMessageDef":"Aramıza yeni bir üye katıldı! ##mention_user##, **##guild_name##** sunucusuna hoşgeldin!",
+        "leaveMessageDef":"Ne yazık ki, **##user_name##** **##guild_name##** sunucusundan ayrıldı :sob:" 
+    },
+    "servinfo":{ 
+        "EmbedTitle":"Sunucu Bilgisi",
+        "GuildNameCatTitle":"Topluluk İsmi",
+        "GuildIdCatTitle":"Topluluk ID'si",
+        "GuildOwnerCatTitle":"Topluluğun Sahibi",
+        "GuildCreatedCatTitle":"Topluluğun Oluşturulma Tarihi",
+        "MemberCountCatTitle":"Üye Sayısı",
+        "PublicPageCatTitle":"Herkese Görünür Sayfa",
+        "PublicPageClickHereBtn":"Buraya Tıklayın",
+        "ChannelsCountCatTitle":"Kanal Sayısı", 
+        "VoiceChannelLabelInline":"Ses", 
+        "TextChannelLabelInline":"Yazı",
+        "VerificationLevelCatTitle":"Doğrulama Seviyesi",
+        "VoiceRegionCatTitle":"Ses Bölgesi"
+    },
+    "chaninfo":{ 
+        "EmbedTitle":"Kanal Bilgisi",
+        "ChannelNameCatTitle":"Kanal İsmi",
+        "ChannelTopicCatTitle":"Kanal Konusu",
+        "ChannelIdCatTitle":"Kanal ID'si"
+    },
+    "help":{
+        "DMSentAlert":":incoming_envelope: Bilgi size DM olarak gönderildi.",
+        "EmbedTitle":"OxyBot Yardımı",
+        "EmbedDesc":"Burada OxyBot komutlarının bir listesini görebilirsiniz. Daha fazla bilgi için şu adresi ziyaret edin: https://oxybot.freeappsw.space/help",
+        "cmdCats":{
+            "InformationalCommands":"Bilgi Komutları",
+            "FunCommands":"Eğlence Komutları",
+            "CustomActions":"Özel Eylemler",
+            "ModerationCommands":"Yönetim Komutları",
+            "UtilityCommands":"Araç Komutları",
+	    "Music":"Müzik (kararlı değil)"
+        },
+        "cmds":{
+            "help":"Bu listeyi göster",
+            "server":"Şu anki topluluk bilgisini gösterir",
+            "channel":"Şu anki kanal bilgisini gösterir",
+            "userinfo":"Kullanıcının detaylı bilgilerini gösterir",
+            "wiki":"Wiki'de arama yapar",
+            "image":"İnternet'te resim arar",
+            "stats":"OxyBot'un durumunu gösterir",
+            "about":"Bot ile ilgili bilgi görüntüler",
+            "number":"'A' ile 'B' sayıları arasında rastgele bir sayı seçer. Eğer belirlenmemişse, 1 ile 1000 arasında seçim yapılacaktır.",
+            "eightBall":"Sihirli Sekiz Topu'na bir soru sorar",
+            "say":"Gruba 'içerik' gönderir. Gönderdiğiniz mesajın anonim olmayacağını göz önünde bulundurun",
+            "action":"Eylemi gerçekleştirir",
+            "actions":"Bu topluluktaki bütün eylemleri listeler",
+            "clearchat":"Gruptan 'x' tane mesaj siler. 14 günden eski mesajlar silinemez.",
+	    "pbin":"'yazı' içerikli bir paste dosyası oluşturur ve adresini verir",
+	    "play":"Şu an bulunduğunuz ses kanalında bir parça çalmaya başlar veya sıraya ekler. Yalnızca Youtube linkleri desteklenmektedir.",
+            "join":"Bağlı olduğunuz kanala katılır",
+            "stop":"Ses akışını zorla durdurur",
+            "np":"Şu anda çalan parçayı görüntüler.",
+            "queue":"Oynatma sırasını görüntüler"
+
+        },
+        "EmbedFooter":"<arg> - zorunlu argüman, [arg] - seçmeli argüman;\n*-henüz bu derlemede mevcut değil"
+    },
+    "image":{
+        "ErrorNoResult":"Sonuç bulunamadı",
+        "ImageResultsFor":"Şu arama için sonuçlar"
+    },
+    "actions":{
+        "EmbedTitle":"Topluluk eylemleri",
+        "EmbedDesc":"Bu toplulukta mevcut olan bütün özel eylemlerin listesini göreblilrsiniz.",
+        "ErrorEmbedTitle":"Hata",
+        "ErrorActionsNotFoundEmbedDesc":"Bu topluluğun hiç bir eylemi bulunmamaktadır",
+        "SuccessDoneEmbedTitle":"Tamam",
+        "SuccessDoneMinusRole":"`##role_name##` rolü kullanıcıdan kaldırıldı.",
+        "SuccessDonePlusRole":"##role_name##` rolü kullanıcıya verildi.",
+        "ErrorCantAddRole":"Bot rolü veremedi. Belki de gerekli izinler yoktur?",
+        "ErrorCantRemoveRole":"Bot rolü kaldıramadı. Belki de gerekli izinler yoktur?"
+    },
+    "about":{
+        "EmbedTitle":"OxyBot Hakkında",
+        "EmbedDesc":"Oxybot [FreeAppSW](https://www.freeappsw.space) tarafından [Oxy-series](https://www.freeappsw.space/oxyseries/)'in parçası olarak yapılmış çok amaçlı bir discord.js botudur.",
+        "VersionCatTitle":"Versiyon",
+        "InviteLinkCatTitle":"Bot Ekle",
+        "WebsiteCatTitle":"Websitesi"
+    },
+    "eightBall":{
+        "EmbedTitle":"8-Top - Oxybot",
+        "EmbedDesc":"8-Topu'nun sihri sorularınızı cevaplasın'",
+        "YourQuestionCatTitle":"Sorunuz",
+        "AnswerCatTitle":"Cevap"
+    },
+    "clearChat":{
+        "SuccessMessage":"##ntd## mesaj silindi.",
+        "ClientNoPermission":"**Mesajları Yönetin** izniniz bulunmamaktadır.",
+        "BotCantDeleteError":"Mesajları silerken bir hata oluştu. Belki de, bot'un **Mesajları Yönetin** izni bulunmamaktadır? "
+    },
+    "wiki":{
+        "NoQueryMessage":"Arama metni belirtilmedi",
+        "QueryErrorMessage":"Wiki sunucusuna istek gönderirken hata oluştu:",
+        "ReadMoreBtn":"Devamını Oku",
+        "ArticleNotFound":"Arama metninizle eşleşen wiki makalesi bulunamadı."
+    },
+    "userinfo":{
+	"EmbedTitle":"Kullanıcı Bilgisi",
+	"UserIdCatTitle":"Kullanıcı ID'si",
+	"JoinedThisGuildCatTitle":"Bu Topluluğa Katıldı",
+	"RolesCatTitle":"Roller",
+	"JoinedDiscordCatTitle":"Discord'a Katıldı",
+	"CurrentGameCatTitle":"Şu Anki Oyun"
+    },
+    "kick":{
+	"UserSuccessfullyKickedMessage":"`@##user_name##` kullanıcısı `##guild_name##` topluluğundan çıkarıldı",
+        "ErrorClientNoPermission":"**Üyeleri At** izniniz bulunmamaktadır.",
+        "UserKickedDMText":"**##guild_name##** topluluğundan çıkarıldınız.",
+	"BotNoPermission":"Bu but'un **Üyeleri At** izni bulunmamaktadır",
+        "UserNotKickable":"Bot izinleri bu kullanıcıyı atmak için çok düşük"
+    },
+    "music":{
+        "NowPlayingMessage":"Şimdi Çalınan: ",
+        "AddedToQueue":"##song## şarkısı çalınmak üzere sıraya alındı.",
+        "QueueConcluded":"Sıra bitti.",
+        "PlayerQueue":"Müzik Sırası:",
+        "JoinedVC": "`##vc_name##` adlı ses kanalına katıldı",
+        "LeftVC":"Ses kanalından ayrıldı",
+        "StoppedPlayer":"Ses oynatıcı durduruldu"
+    },
+    "gateways":{
+        "GWConnectedMessage":"Kanal `##gw_id##` geçidine bağlandı. Bağlantıyı kesmek için `##disconnect_command##` komudunu kullanın.",
+        "ErrorNotFound":"Bu geçit bulunmamaktadır.",
+        "ErrorAlreadyConnected":"İlk önce diğer geçitten ayrılmalısınız.",
+        "ErrorAllSlotsBusy":"Bu geçitte daha fazla boş yer bulunmamaktadır.",
+        "GWDisconnectedMessage":"Kanalın geçit ile bağlantısı kesildi",
+        "GWCreatedMessage":"`##gw_id##` adlı geçit başarıyla oluşturuldu",
+        "GWInformationEmbedTitle":"Geçit Bilgisi"
+    },
+    "website":{
+        "header":{
+            "home":"Anasayfa",
+            "help":"Yardım",
+            "invite":"Davet",
+            "support":"Destek",
+            "panelLogin":"Panele Giriş Yap",
+            "panelLogout":"Çıkış Yap",
+            "panelAccess":"Paneli Aç"
+        },
+	"panel":{
+            "openGuild":"Panele Erişim",
+            "PanelsTitle":"Paneller",
+            "PaneGeneral":"Genel",
+            "PaneWelcoming":"Karşılama",
+            "PaneActions":"Özel Eylemler",
+            "PaneLeaderboard":"Liderlik Tahtası",
+            "PanePublicPage":"Herkese Görünür Sayfa",
+            "loggedInAs":"Şu olarak giriş yapıldı:",
+	    "General":{
+            	"GuildLocale":"Topluluk Dili",
+                "GuildLocaleDesc":"Topluluk Dili bu topluluktan gönderilen bot mesajlarının dilini ayarlar. Website dilini veya komutları değiştirmez.",
+                "PanelAccess":"Panele Erişin",
+                "UsersHavingAccess":"Şu anda panele erişen kullanıcılar:",
+                "YouOwner":"Bu topluluğun sahibi sizsiniz.",
+                "EditWhitelist":"Panel erişim beyazlistesini düzenle",
+                "EditWhitelistShort":"Beyazliste'yi Düzenle",
+                "WhitelistAlertifyLabel":"Beyazliste",
+                "AllUsersAlertifyLabel":"Kullanıcılar",
+                "ApplyAlertifyBtn":"Uygula",
+		"StartEnteringTag":"Discord Etiketi girmeye başlayın:",
+                "OwnerDesc":"Bu kullanıcıların Panel'e sınırsız erişimi vardır ancak beyazlisteye düzenleme yapamazlar.",
+                 "EmptyList":"(boş liste)",
+                 "CacheTitle":"Önbellek",
+                 "ResetCacheNow":"Önbelleği Şimdi Sıfırla",
+                 "CacheDesc":"Oxybot'un websitesi topluluk bilgilerinizi önbelleğe alarak veritabanına ve bot'a gelen istekleri azaltır. Önbellek yaklaşık 5 dakika boyunca geçerlidir.Yukarıdaki düğmeye tıklayarak önbelleği şimdi sıfırlamaya zorlayabilirsiniz."
+             },
+             "PublicPage":{
+                 "ViewCurrentPage":"Herkese Görünür Sayfayı Önizle"
+             },
+             "Leaderboard":{
+                 "LeaderboardDesc":"Liderlik tahtası gönderilen mesaj sayısına göre en aktif olan üyelerin sıralamasını görüntüler.",
+                 "EnableLeaderboard":"Liderlik tahtası etkin,
+                 "ResetLeaderboard":"Liderlik tahtasını sıfırla"
+            },
+            "AppliedSuccess":"Ayarlar Uygulandı",
+            "Ratelimited":"Yaklaşık 5 saniye sonra yeniden deneyin",
+            "UnknownError":"Bilinmeyen Hata:" 
+        },
+        "guildPublic":{
+            "GuildsTitle":"Topluluklar",
+            "GuildPageInline":"Topluluğun Herkese Açık Sayfası",
+            "Leaderboard":"Liderlik Tahtası"
+        },
+    },
+    "plural":{
+        "member":{
+            "single":"üye",
+            "e1":"üye",
+            "e2":"üye",
+            "e3":"üye",
+            "e4":"üye",
+            "e5":"üye",
+            "e6":"üye",
+            "e7":"üye",
+            "e8":"üye",
+            "e9":"üye",
+            "e0":"üye",
+            "e11":"üye",
+            "e12":"üye",
+            "e13":"üye",
+            "e14":"üye",
+            "e15":"üye",
+            "e16":"üye",
+            "e17":"üye",
+            "e18":"üye",
+            "e19":"üye"
+        },
+        "channel":{
+            "single":"kanal",
+            "e1":"kanal",
+            "e2":"kanal",
+            "e3":"kanal",
+            "e4":"kanal",
+            "e5":"kanal",
+            "e6":"kanal",
+            "e7":"kanal",
+            "e8":"kanal",
+            "e9":"kanal",
+            "e0":"kanal",
+            "e11":"kanal",
+            "e12":"kanal",
+            "e13":"kanal",
+            "e14":"kanal",
+            "e15":"kanal",
+            "e16":"kanal",
+            "e17":"kanal",
+            "e18":"kanal",
+            "e19":"kanal"
+        }
+    }
+}
