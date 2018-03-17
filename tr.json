@@ -177,7 +177,7 @@
              },
              "Leaderboard":{
                  "LeaderboardDesc":"Liderlik tahtası gönderilen mesaj sayısına göre en aktif olan üyelerin sıralamasını görüntüler.",
-                 "EnableLeaderboard":"Liderlik tahtası etkin,
+                 "EnableLeaderboard":"Liderlik tahtası etkin",
                  "ResetLeaderboard":"Liderlik tahtasını sıfırla"
             },
             "AppliedSuccess":"Ayarlar Uygulandı",
