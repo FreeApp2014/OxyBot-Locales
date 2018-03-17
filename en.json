@@ -165,8 +165,20 @@
                 "WhitelistAlertifyLabel":"Whitelist",
                 "AllUsersAlertifyLabel":"Users",
                 "ApplyAlertifyBtn":"Apply",
+                "StartEnteringTag":"Start entering a DiscordTag...",
                 "OwnerDesc":"These users have unlimited access to this Panel except not being able to edit the whitelist.",
-                "EmptyList":"(empty list)"
+                "EmptyList":"(empty list)",
+                "CacheTitle":"Cache",
+                "ResetCacheNow":"Purge Cache Now",
+                "CacheDesc":"OxyBot's website caches your guild data to reduce the amount of request to the bot and the database. The cache lasts for around 5 minutes. You can force purge the cache right now by clicking the above button."
+            },
+            "PublicPage":{
+                "ViewCurrentPage":"Preview Public Page"
+            },
+            "Leaderboard":{
+                "LeaderboardDesc":"Leaderboard displays the most active memebers on a guild according to the amount of messages sent.",
+                "EnableLeaderboard":"Leaderboard Enabled",
+                "ResetLeaderboard":"Reset Leaderboard"
             },
             "AppliedSuccess":"Settings applied",
             "Ratelimited":"Try again in around 5 seconds",
