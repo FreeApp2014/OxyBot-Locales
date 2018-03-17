@@ -1,0 +1,227 @@
+{
+    "userFriendlyLocaleName":"Türkçe", 
+    "possible8ball":["Evet", "Hayır", "Bilmiyorum", "Kaynaklarım doğru olduğunu söylüyor", "Üzgünüm ama cevap vermemeyi tercih ederim", "Muhtemelen öyle", "Muhtemelen öyle değil", "Daha sonra tekrar dene"],
+    "welcoming":{ 
+        "welcomeMessageDef":"Aramıza yeni bir üye katıldı! ##mention_user##, **##guild_name##** sunucusuna hoşgeldin!",
+        "leaveMessageDef":"Ne yazık ki, **##user_name##** **##guild_name##** sunucusundan ayrıldı :sob:" 
+    },
+    "servinfo":{ 
+        "EmbedTitle":"Sunucu Bilgisi",
+        "GuildNameCatTitle":"Topluluk İsmi",
+        "GuildIdCatTitle":"Topluluk ID'si",
+        "GuildOwnerCatTitle":"Topluluğun Sahibi",
+        "GuildCreatedCatTitle":"Topluluğun Oluşturulma Tarihi",
+        "MemberCountCatTitle":"Üye Sayısı",
+        "PublicPageCatTitle":"Herkese Görünür Sayfa",
+        "PublicPageClickHereBtn":"Buraya Tıklayın",
+        "ChannelsCountCatTitle":"Kanal Sayısı", 
+        "VoiceChannelLabelInline":"Ses", 
+        "TextChannelLabelInline":"Yazı",
+        "VerificationLevelCatTitle":"Doğrulama Seviyesi",
+        "VoiceRegionCatTitle":"Ses Bölgesi"
+    },
+    "chaninfo":{ 
+        "EmbedTitle":"Kanal Bilgisi",
+        "ChannelNameCatTitle":"Kanal İsmi",
+        "ChannelTopicCatTitle":"Kanal Konusu",
+        "ChannelIdCatTitle":"Kanal ID'si"
+    },
+    "help":{
+        "DMSentAlert":":incoming_envelope: Bilgi size DM olarak gönderildi.",
+        "EmbedTitle":"OxyBot Yardımı",
+        "EmbedDesc":"Burada OxyBot komutlarının bir listesini görebilirsiniz. Daha fazla bilgi için şu adresi ziyaret edin: https://oxybot.freeappsw.space/help",
+        "cmdCats":{
+            "InformationalCommands":"Bilgi Komutları",
+            "FunCommands":"Eğlence Komutları",
+            "CustomActions":"Özel Eylemler",
+            "ModerationCommands":"Yönetim Komutları",
+            "UtilityCommands":"Araç Komutları",
+	    "Music":"Müzik (kararlı değil)"
+        },
+        "cmds":{
+            "help":"Bu listeyi göster",
+            "server":"Şu anki topluluk bilgisini gösterir",
+            "channel":"Şu anki kanal bilgisini gösterir",
+            "userinfo":"Kullanıcının detaylı bilgilerini gösterir",
+            "wiki":"Wiki'de arama yapar",
+            "image":"İnternet'te resim arar",
+            "stats":"OxyBot'un durumunu gösterir",
+            "about":"Bot ile ilgili bilgi görüntüler",
+            "number":"'A' ile 'B' sayıları arasında rastgele bir sayı seçer. Eğer belirlenmemişse, 1 ile 1000 arasında seçim yapılacaktır.",
+            "eightBall":"Sihirli Sekiz Topu'na bir soru sorar",
+            "say":"Gruba 'içerik' gönderir. Gönderdiğiniz mesajın anonim olmayacağını göz önünde bulundurun",
+            "action":"Eylemi gerçekleştirir",
+            "actions":"Bu topluluktaki bütün eylemleri listeler",
+            "clearchat":"Gruptan 'x' tane mesaj siler. 14 günden eski mesajlar silinemez.",
+	    "pbin":"'yazı' içerikli bir paste dosyası oluşturur ve adresini verir",
+	    "play":"Şu an bulunduğunuz ses kanalında bir parça çalmaya başlar veya sıraya ekler. Yalnızca Youtube linkleri desteklenmektedir.",
+            "join":"Bağlı olduğunuz kanala katılır",
+            "stop":"Ses akışını zorla durdurur",
+            "np":"Şu anda çalan parçayı görüntüler.",
+            "queue":"Oynatma sırasını görüntüler"
+
+        },
+        "EmbedFooter":"<arg> - zorunlu argüman, [arg] - seçmeli argüman;\n*-henüz bu derlemede mevcut değil"
+    },
+    "image":{
+        "ErrorNoResult":"Sonuç bulunamadı",
+        "ImageResultsFor":"Şu arama için sonuçlar"
+    },
+    "actions":{
+        "EmbedTitle":"Topluluk eylemleri",
+        "EmbedDesc":"Bu toplulukta mevcut olan bütün özel eylemlerin listesini göreblilrsiniz.",
+        "ErrorEmbedTitle":"Hata",
+        "ErrorActionsNotFoundEmbedDesc":"Bu topluluğun hiç bir eylemi bulunmamaktadır",
+        "SuccessDoneEmbedTitle":"Tamam",
+        "SuccessDoneMinusRole":"`##role_name##` rolü kullanıcıdan kaldırıldı.",
+        "SuccessDonePlusRole":"##role_name##` rolü kullanıcıya verildi.",
+        "ErrorCantAddRole":"Bot rolü veremedi. Belki de gerekli izinler yoktur?",
+        "ErrorCantRemoveRole":"Bot rolü kaldıramadı. Belki de gerekli izinler yoktur?"
+    },
+    "about":{
+        "EmbedTitle":"OxyBot Hakkında",
+        "EmbedDesc":"OxyBot is a multipurpose Discord.js bot made by [FreeAppSW](https://www.freeappsw.space) as a part of [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "VersionCatTitle":"Version",
+        "InviteLinkCatTitle":"Add bot",
+        "WebsiteCatTitle":"Website"
+    },
+    "eightBall":{
+        "EmbedTitle":"8-ball - OxyBot",
+        "EmbedDesc":"Let the magic of the Eight-Ball answer your question!",
+        "YourQuestionCatTitle":"Your question",
+        "AnswerCatTitle":"Answer"
+    },
+    "clearChat":{
+        "SuccessMessage":"Deleted `##ntd##` messages.",
+        "ClientNoPermission":"You don't have **Manage Messages** permission.",
+        "BotCantDeleteError":"There was an error while deleting messages. Perhaps, the bot is missing **Manage Messages** permission?"
+    },
+    "wiki":{
+        "NoQueryMessage":"No search query provided.",
+        "QueryErrorMessage":"An error has occured while requesting the wiki server:",
+        "ReadMoreBtn":"Read More",
+        "ArticleNotFound":"No articles matching your search query were found on this wiki."
+    },
+    "userinfo":{
+	"EmbedTitle":"User Information",
+	"UserIdCatTitle":"User ID",
+	"JoinedThisGuildCatTitle":"Joined this Guild",
+	"RolesCatTitle":"Roles",
+	"JoinedDiscordCatTitle":"Joined Discord",
+	"CurrentGameCatTitle":"Current Game"
+    },
+    "kick":{
+	"UserSuccessfullyKickedMessage":"Kicked `@##user_name##` from `##guild_name##`",
+        "ErrorClientNoPermission":"You don't have **Kick Members** permission.",
+        "UserKickedDMText":"You were kicked from **##guild_name##**",
+	"BotNoPermission":"The bot doesn't have **Kick Members** permission.",
+        "UserNotKickable":"The bot permissions are too low to kick this user"
+    },
+    "music":{
+        "NowPlayingMessage":"Now playing: ",
+        "AddedToQueue":"Enqueued ##song## to be played.",
+        "QueueConcluded":"Queue concluded.",
+        "PlayerQueue":"Music Queue:",
+        "JoinedVC": "Joined voice channel `##vc_name##`",
+        "LeftVC":"Left voice channel",
+        "StoppedPlayer":"Stopped audio player"
+    },
+    "gateways":{
+        "GWConnectedMessage":"Connected channel to Gateway `##gw_id##`. To disconnect use `##disconnect_command##`",
+        "ErrorNotFound":"This Gateway does not exist.",
+        "ErrorAlreadyConnected":"You must disconnect from other Gateway first",
+        "ErrorAllSlotsBusy":"Sorry, there are no more free slots in this Gateway.",
+        "GWDisconnectedMessage":"Disconnected channel from Gateway.",
+        "GWCreatedMessage":"Gateway `##gw_id##` successfully created",
+        "GWInformationEmbedTitle":"Gateway Infomation"
+    },
+    "website":{
+        "header":{
+            "home":"Home",
+            "help":"Help",
+            "invite":"Invite",
+            "support":"Support",
+            "panelLogin":"Login to Panel",
+            "panelLogout":"Logout",
+            "panelAccess":"Open Panel"
+        },
+	"panel":{
+            "openGuild":"Access Panel",
+            "PanelsTitle":"Panels",
+            "PaneGeneral":"General",
+            "PaneWelcoming":"Welcoming",
+            "PaneActions":"Custom Actions",
+            "PaneLeaderboard":"Leaderboard",
+            "PanePublicPage":"Public Page",
+            "loggedInAs":"Logged in as:",
+	    "General":{
+            	"GuildLocale":"Guild Locale",
+                "GuildLocaleDesc":"The guild locale sets the locale of the bot messages sent to chats or DM from this guild. It does not affect the commands or the website locale.",
+                "PanelAccess":"Access to Panel",
+                "UsersHavingAccess":"Users having access to Panel now:",
+                "YouOwner":"You are the owner of this guild.",
+                "EditWhitelist":"Edit Panel access whitelist",
+                "EditWhitelistShort":"Edit Whitelist",
+                "WhitelistAlertifyLabel":"Whitelist",
+                "AllUsersAlertifyLabel":"Users",
+                "ApplyAlertifyBtn":"Apply",
+                "OwnerDesc":"These users have unlimited access to this Panel except not being able to edit the whitelist.",
+                "EmptyList":"(empty list)"
+            },
+            "AppliedSuccess":"Settings applied",
+            "Ratelimited":"Try again in around 5 seconds",
+            "UnknownError":"Unknown error:" 
+        },
+        "guildPublic":{
+            "GuildsTitle":"Guilds",
+            "GuildPageInline":"Guild Public Page",
+            "Leaderboard":"Leaderboard"
+        }
+    },
+    "plural":{
+        "member":{
+            "single":"member",
+            "e1":"members",
+            "e2":"members",
+            "e3":"members",
+            "e4":"members",
+            "e5":"members",
+            "e6":"members",
+            "e7":"members",
+            "e8":"members",
+            "e9":"members",
+            "e0":"members",
+            "e11":"members",
+            "e12":"members",
+            "e13":"members",
+            "e14":"members",
+            "e15":"members",
+            "e16":"members",
+            "e17":"members",
+            "e18":"members",
+            "e19":"members"
+        },
+        "channel":{
+            "single":"channel",
+            "e1":"channels",
+            "e2":"channels",
+            "e3":"channels",
+            "e4":"channels",
+            "e5":"channels",
+            "e6":"channels",
+            "e7":"channels",
+            "e8":"channels",
+            "e9":"channels",
+            "e0":"channels",
+            "e11":"channels",
+            "e12":"channels",
+            "e13":"channels",
+            "e14":"channels",
+            "e15":"channels",
+            "e16":"channels",
+            "e17":"channels",
+            "e18":"channels",
+            "e19":"channels"
+        }
+    }
+}
