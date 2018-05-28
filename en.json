@@ -135,6 +135,21 @@
         "GWCreatedMessage":"Gateway `##gw_id##` successfully created",
         "GWInformationEmbedTitle":"Gateway Infomation"
     },
+    "notSoFast":{
+        "DMSuccess":"Now you have access to the guild :+1:",
+        "DMMessage":"This guild uses OxyBot's Not So Fast system to stay protected from raiders and spam bots. To get access to the guild, just go to ##nsf_url## and complete the captcha.",
+        "FailedDm":"##mention-user##, unable to deliver the DM to you. To get access to the channels go to ##nsf_url## and complete the captcha. Please note that this message will be removed in 60 seconds.",
+        "WelcomeDM":"Hello and welcome ##mention-user##! Please check your DMs for the further information on accessing the guild's channels.",
+        "PageTitle":"Not So Fast - Verify",
+        "WebsiteHeading":"In order to get access to guild channels complete the CAPTCHA below.",
+        "WebsitePopupComplete":"You have successfully completed the captcha and have access to all channels. This window/tab will close now.",
+        "ErrorWhileVerification":"Something wrong happened while verifying you. Try again later.",
+        "AntiRaid":{
+            "TriggeredMessage":"**Unfortunately, your account has triggered Not So Fast's AntiRaid system**\nThis may have happened due to following reasons:\n·Account does not have a profile picture and has been created less than a week ago\n·Account was created less than 3 days ago\nCurrently you only have limited access.\nThe block will automatically be removed in 4 hours.\nThis case has been reported to the guild administration.",
+            "UnlockedMessage":"Your block has expired. Now you should have full access to all resources.",
+            "UnblockedForce":"You have been manually unlocked by an administrator."
+        }
+    },
     "website":{
         "header":{
             "home":"Home",
@@ -171,6 +186,38 @@
                 "CacheTitle":"Cache",
                 "ResetCacheNow":"Purge Cache Now",
                 "CacheDesc":"OxyBot's website caches your guild data to reduce the amount of request to the bot and the database. The cache lasts for around 5 minutes. You can force purge the cache right now by clicking the above button."
+            },
+		"Welcoming":{
+                "Desc":"Welcoming system allows you to send custom welcome and leave messages for members or use it as your private log.",
+                "EnableTitle":"Welcoming Status",
+                "WelcomingIsOn":"Welcoming is currently on",
+                "WelcomingIsOff":"Welcoming is currently off",
+                "ToggleBtn":"Toggle Welcoming",
+                "WelcomingChannel":"Welcoming Channel",
+                "WelcomeMessage":"Welcome Message:",
+                "LeaveMessage":"Leave Message",
+                "VariableTip":"You can use the following variables in your message that get replaced with the actual content:"
+            },
+            "NotSoFast":{
+                "Desc":"Not So Fast system protects your guild from spambots and raid attacks by enforcing CAPTCHA based verification system for getting access",
+                "EnableTitle":"Status",
+                "ToggleNSF":"Toggle Not So Fast",
+                "NSFIsOn":"Not So Fast is currently on",
+                "NSFIsOff":"Not So Fast is currently off",
+                "Mode":"Operation Mode:",
+                "Modes":{
+                    "1":{
+                        "name":"Exclusive Mode",
+                        "desc":"Automatically adds the blocking role to all users on joining and removes it when verified"
+                    },
+                    "2":{
+                        "name":"Inclusive Mode",
+                        "desc":"Regular mode of adding a role (like Member) that has access to channels after verifying"
+                    }
+                },
+                "AntiRaid":"AntiRaid System",
+                "DescAR":"AntiRaid system automatically detects potentially spam accounts that could pass the NSF verification and applies some soft limits.",
+                "ToggleAR":"Toggle AntiRaid System"
             },
             "PublicPage":{
                 "ViewCurrentPage":"Preview Public Page"
