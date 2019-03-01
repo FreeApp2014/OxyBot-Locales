@@ -1,6 +1,6 @@
 {
     "userFriendlyLocaleName":"Italiano", 
-    "possible8ball":["Si", "No", "Non lo so", "Le mie fonti mi dicono che é vero", "Mi spiace, ma preferisco non rispondere", "Molto probabilmente si", "Molto probabilmente no", "Riprova più tardi"],
+    "possible8ball":["Sì", "No", "Non lo so", "Le mie fonti mi dicono che è vero", "Mi spiace, ma preferisco non rispondere", "Molto probabilmente sì", "Molto probabilmente no", "Riprova più tardi"],
     "welcoming":{ 
         "welcomeMessageDef":"Abbiamo un nuovo membro! Benvenuto ##mention_user## in **##guild_name##**!",
         "leaveMessageDef":"Sfortunatamente, **##user_name##** ha abbandonato **##guild_name##** :sob:" 
@@ -18,7 +18,7 @@
         "VoiceChannelLabelInline":"Vocali", 
         "TextChannelLabelInline":"Testuali",
         "VerificationLevelCatTitle":"Livello di verifica",
-        "VoiceRegionCatTitle":"Area geografica canali vocali"
+        "VoiceRegionCatTitle":"Area geografica dei canali vocali"
     },
     "chaninfo":{ 
         "EmbedTitle":"Informazioni sul canale",
@@ -27,7 +27,7 @@
         "ChannelIdCatTitle":"ID canale"
     },
     "help":{
-        "DMSentAlert":":incoming_envelope: Le informazioni ti sono state inviate nei tuoi messaggi privati.",
+        "DMSentAlert":":incoming_envelope: Le informazioni sono state inviate nei tuoi messaggi privati.",
         "EmbedTitle":"Guida di OxyBot",
         "EmbedDesc":"Qui puoi vedere una lista di comandi di OxyBot. Puoi avere maggiori informazioni a questo link: https://oxybot.freeappsw.space/help",
         "cmdCats":{
@@ -38,14 +38,14 @@
         },
         "cmds":{
             "help":"Mostra questa lista",
-            "server":"Mostra delle informazioni sul server",
-            "channel":"Mostra delle informazioni sul canale",
-            "userinfo":"Mostra delle informazioni su un membro",
+            "server":"Mostra le informazioni sul server",
+            "channel":"Mostra le informazioni sul canale",
+            "userinfo":"Mostra le informazioni su un membro",
             "wiki":"Cerca qualcosa su Wikipedia",
             "image":"Cerca immagini online",
             "stats":"Mostra lo stato di OxyBot",
-            "about":"Mostra delle informazioni su OxyBot",
-            "number":"Genera un numero a caso tra `X` e `Y`, oppure se non specificati, tra 1 e 1000.",
+            "about":"Mostra le informazioni su OxyBot",
+            "number":"Genera un numero a caso tra `X` e `Y` oppure, se non specificati, tra 1 e 1000.",
             "eightBall":"Chiedi qualcosa alla palla da biliardo magica numero 8.",
             "say":"Invia `content` in chat. Il messaggio NON sarà anonimo.",
             "action":"Esegui un'azione",
@@ -64,14 +64,14 @@
         "ErrorEmbedTitle":"Errore",
         "ErrorActionsNotFoundEmbedDesc":"Questo server non ha alcuna azione",
         "SuccessDoneEmbedTitle":"Fatto",
-        "SuccessDoneMinusRole":"Il ruolo `##role_name##` e' stato rimosso dall'utente.",
-        "SuccessDonePlusRole":"Il ruolo `##role_name##` e' stato aggiunto all'utente.",
-        "ErrorCantAddRole":"Il bot non e' riuscito a creare il ruolo. Forse, non ha i permessi necessari?",
-        "ErrorCantRemoveRole":"Il bot non e' riuscito a rimuovere il ruolo. Forse, non ha i permessi necessari?"
+        "SuccessDoneMinusRole":"Il ruolo `##role_name##` è stato rimosso dall'utente.",
+        "SuccessDonePlusRole":"Il ruolo `##role_name##` è stato aggiunto all'utente.",
+        "ErrorCantAddRole":"Il bot non è riuscito a creare il ruolo. Forse, non ha i permessi necessari?",
+        "ErrorCantRemoveRole":"Il bot non è riuscito a rimuovere il ruolo. Forse, non ha i permessi necessari?"
     },
     "about":{
         "EmbedTitle":"Informazioni su OxyBot",
-        "EmbedDesc":"OxyBot e' un bot multiuso creato con Discord.js da [FreeAppSW](https://www.freeappsw.space) come parte delle [Oxy-series](https://www.freeappsw.space/oxyseries/).",
+        "EmbedDesc":"OxyBot è un bot multiuso creato con Discord.js da [FreeAppSW](https://www.freeappsw.space) come parte delle [Oxy-series](https://www.freeappsw.space/oxyseries/).",
         "VersionCatTitle":"Versione",
         "InviteLinkCatTitle":"Aggiungi OxyBot",
         "WebsiteCatTitle":"Sito web"
@@ -89,24 +89,24 @@
     },
     "wiki":{
         "NoQueryMessage":"Non hai specificato nulla da cercare.",
-        "QueryErrorMessage":"Si e' verificato un errore durante la ricerca:",
+        "QueryErrorMessage":"Si è verificato un errore durante la ricerca:",
         "ReadMoreBtn":"Leggi altro",
-        "ArticleNotFound":"Non e' stato trovato alcun risultato tra gli articoli della wiki."
+        "ArticleNotFound":"Non è stato trovato alcun risultato tra gli articoli della wiki."
     },
     "userinfo":{
 	    "EmbedTitle":"Informazioni sull'utente",
 	    "UserIdCatTitle":"ID utente",
-	    "JoinedThisGuildCatTitle":"E' entrato nel server",
+	    "JoinedThisGuildCatTitle":"È entrato nel server",
 	    "RolesCatTitle":"Ruoli",
-	    "JoinedDiscordCatTitle":"Si e' iscritto a Discord",
+	    "JoinedDiscordCatTitle":"Si è iscritto a Discord",
 	    "CurrentGameCatTitle":"Sta giocando a"
     },
     "kick":{
-	    "UserSuccessfullyKickedMessage":"`@##user_name##` e' stato espulso da `##guild_name##`",
+	    "UserSuccessfullyKickedMessage":"`@##user_name##` è stato espulso da `##guild_name##`",
             "ErrorClientNoPermission":"Non hai il permesso **Kick Members**.",
             "UserKickedDMText":"Sei stato espulso da **##guild_name##**",
 	    "BotNoPermission":"Il bot non ha il permesso **Kick Members**.",
-            "UserNotKickable":"Il bot ha troppi pochi permessi per espellere questo utente."
+            "UserNotKickable":"Il bot non ha abbastanza permessi per espellere questo utente."
     },
     "website":{
         "header":{
